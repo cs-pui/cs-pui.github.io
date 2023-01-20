@@ -228,12 +228,12 @@ _Excerpt_ Eastern Michigan University’s Department of Computer Science seeks a
 ### Grinnell College 
 {: #grinnell}
 
-_Excerpt_ The Department of Computer Science invites applications for a tenure-track appointment beginning Fall 2023. Assistant Professor (Ph.D.) preferred; Instructor (ABD) or Associate Professor possible. The Department will prioritize candidates interested in teaching systems [and/or software engineering] courses, but we are eager to consider candidates who conduct research in any area of Computer Science. Candidates with degrees in closely related fields will also be considered. Candidates are expected to describe the ways they can support and engage with students and colleagues from historically underrepresented or marginalized groups. The teaching load is five courses (or equivalent; some classes with a significant lab component are credited as 1.5 courses) over two semesters; periodically one course will be Tutorial (a topical writing/critical thinking course for first-year students).
+_Excerpt_ The Department of Computer Science invites applications for a 2-year appointment beginning Fall 2023. Assistant Professor (Ph.D.) preferred; Instructor (ABD) or Associate Professor possible. Candidates with research and teaching interests in any area of Computer Science are encouraged to apply. Candidates with degrees in closely-related fields who have relevant experience will also be considered. Candidates are expected to describe the ways they can support and engage with students and colleagues from historically underrepresented or marginalized groups. The teaching load is five courses (or equivalent; some classes with a significant lab component are credited as 1.5 courses) over two semesters.
 
-- To be assured of full consideration, all application materials should be received by **October 16, 2022**
+- To be assured of full consideration, all application materials should be received by **February 10, 2023**
 - Grinnell, Iowa. USA.
 
-[Full Job Posting](https://apply.interfolio.com/113103){: .button-job}
+[Full Job Posting](https://apply.interfolio.com/119831){: .button-job}
 [_back to all deadlines_](#deadlines)
 
 ------------
