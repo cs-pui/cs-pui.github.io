@@ -24,7 +24,6 @@
 | [Wellesley College](#wellesley) | Wellesley, MA | 10/15/2022 |
 | [Wesleyan University](#wesleyan) | Middleton, CT | 10/15/2022 |
 | [University of St. Thomas](#stthomas) | Saint Paul, MN | 10/16/2022 |
-| [Grinnell College](#grinnell) | Grinnell, IA | 10/16/2022 |
 | [Colby College](#colby-env) | Waterville, ME | 10/17/2022 |
 | [Hamilton College](#hamilton) | Clinton, NY | 10/17/2022 |
 | [Mount Holyoke College](#holyoke) | South Hadley, MA | 10/17/2022 |
@@ -53,6 +52,7 @@
 | [Houghton University](#houghton) | Houghton, NY | 01/01/2023 |
 | [Dickinson College](#dickinson) | Carlisle, PA | 01/09/2023, open until filled |
 | [Muhlenberg College](#muhlenberg) | Allentown, PA | 01/15/2023 |
+| [Grinnell College](#grinnell) | Grinnell, IA | 02/10/2023 |
 | [California Polytechnic State University](#cal-poly) | San Luis Obispo, CA | open until filled |
 | [University of the Pacific](#pacific) | Stockton, CA | open until filled |
 | [Mount St. Mary's University](#msmu) | Emmitsburg, MD | open until filled |
