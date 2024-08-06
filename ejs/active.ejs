@@ -1,0 +1,24 @@
+<% items.sort(function(a,b){return new Date(a.deadline) - new Date(b.deadline)}) %>
+
+<% var cutoffDate = new Date() %>
+
+<table class="styled-table">
+    <tr>
+      <th>Institution</th>
+      <th>Job Type</th>
+      <th>Location</th>
+      <th>Deadline</th>
+    </tr>
+    <% for (const item of items) { %>
+      <% var itemDate = new Date(item.deadline) %>
+      <% itemDate.setHours(25) %>
+      <% if (itemDate >= cutoffDate & item.active) { %>
+    <tr>
+      <td><a href="#sec-<%- item.institution %>-<%- item.type %>-<%- item.deadline %>"><%= item.institution %></a></td>
+      <td><%= item.type %></td>
+      <td><%= item.location %></td>
+      <td><%= item.deadline %></td>
+    </tr>
+    <% } %>
+    <% } %>
+</table>

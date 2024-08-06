@@ -1,0 +1,24 @@
+[
+  {
+    "listing": "/archive.html",
+    "items": [
+      "/jobs/job-1.html",
+      "/jobs/job-2.html",
+      "/jobs/job-3.html",
+      "/jobs/job-4.html",
+      "/jobs/job-5.html",
+      "/jobs/job-6.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/jobs/job-1.html",
+      "/jobs/job-2.html",
+      "/jobs/job-3.html",
+      "/jobs/job-4.html",
+      "/jobs/job-5.html",
+      "/jobs/job-6.html"
+    ]
+  }
+]

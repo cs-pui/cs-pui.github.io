@@ -1,0 +1,71 @@
+---
+page-layout: article
+listing: 
+  - id: active
+    contents: 
+      - "jobs/*.qmd"
+    template: ejs/active.ejs
+    max-description-length: 20000
+  - id: due-date-past
+    contents: 
+      - "jobs/*.qmd"
+    template: ejs/due-date-past.ejs
+    max-description-length: 20000
+  - id: closed
+    contents: 
+      - "jobs/*.qmd"
+    template: ejs/closed.ejs
+    max-description-length: 20000
+  - id: active-description
+    contents: 
+      - "jobs/*.qmd" 
+    template: ejs/active-description.ejs
+    max-description-length: 20000
+---
+
+![](assets/img/cs-pui-listing.jpg)
+
+
+# Introduction      
+      
+St. agur blue cheese edam mascarpone. Port-salut stinking bishop when the cheese comes out everybody's happy cut the cheese cheddar paneer cheddar feta. Queso blue castello queso gouda smelly cheese chalk and cheese cottage cheese cheese on toast. Cheese slices pepper jack cheese on toast cheese and biscuits.
+ 
+Mascarpone blue castello cheeseburger. St. agur blue cheese st. agur blue cheese cheeseburger bavarian bergkase cheesy feet squirty cheese who moved my cheese jarlsberg. Cheese and biscuits danish fontina pepper jack blue castello camembert de normandie emmental airedale airedale. Who moved my cheese st. agur blue cheese.      
+             
+# Searches This Year 
+      
+### Active Postings {#sec-all-deadlines} 
+   
+:::{#active}
+::: 
+ 
+       
+  
+### Due Date Past    
+  
+Some of these searches *may* still be accepting applications; you might consider contacting the department to check.                        
+
+:::{#due-date-past}
+:::
+    
+
+  
+### Closed Searches     
+
+These searches took place this job season and have been confirmed by their department to be closed. 
+
+
+:::{#closed}
+:::
+
+ 
+
+# Position Descriptions 
+     
+Below are the position descriptions for all of this year's searches which are not confirmed to be closed.  
+
+:::{#active-description}
+:::
+
+  
+  
