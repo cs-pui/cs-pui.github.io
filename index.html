@@ -127,34 +127,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-closed .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-format','listing-website','listing-language','listing-institution','listing-location','listing-deadline','listing-active','listing-type','listing-url','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-format","listing-website","listing-language","listing-institution","listing-location","listing-deadline","listing-active","listing-type","listing-url","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-closed'] = new List('listing-closed', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-active-description .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -400,45 +372,6 @@ Example City, Example Country
 </td>
 <td>
 2024-08-01
-</td>
-</tr>
-</tbody></table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="closed-searches" class="level3">
-<h3 class="anchored" data-anchor-id="closed-searches">Closed Searches</h3>
-<p>These searches took place this job season and have been confirmed by their department to be closed.</p>
-<div id="listing-closed" class="quarto-listing quarto-listing-container-custom">
-<table class="styled-table">
-<tbody><tr>
-<th>
-Institution
-</th>
-<th>
-Job Type
-</th>
-<th>
-Location
-</th>
-<th>
-Deadline
-</th>
-</tr>
-<tr>
-<td>
-<a href="#sec-Example College-Visiting-2024-10-15">Example College</a>
-</td>
-<td>
-Visiting
-</td>
-<td>
-Example City, Example Country
-</td>
-<td>
-2024-10-15
 </td>
 </tr>
 </tbody></table>
