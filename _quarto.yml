@@ -1,7 +1,6 @@
 project:
   type: website
   title: "CS Jobs at Undergrad Institutions (PUIs)"
-  output-dir: docs
   
 format: 
   html: 
