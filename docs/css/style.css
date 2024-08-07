@@ -139,3 +139,72 @@ div.jobs h3::before {
     color: #ffffff;
     text-align: left;
 }
+
+
+strong em {
+    background-color: #1f5ce9be;
+    color: white;
+    border-radius: 3px;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    font-style: normal;
+}
+
+
+
+/* --------- NOTICE CSS --------------- */
+
+.notice {
+    margin: 1em 0 !important;
+    padding: 1em;
+    text-indent: initial; /* override */
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-weight: 300;
+} 
+
+.notice ul, .notice p {
+    margin-bottom:0em;
+}
+
+.notice-blue {
+    background-color: #52acc827;
+    box-shadow: 0 1px 1px #31677785;
+}
+
+.notice-red {
+    background-color: #f48f8f58;
+    box-shadow: 0 1px 1px #d3d2d2;
+}
+
+/* notice-gray is used for checkbox lists */
+.notice-gray {
+    background-color: #f3f3f3;
+    box-shadow: 0 1px 1px #d3d2d2;
+}
+
+.notice-gray ul{
+    list-style: none;
+    margin-left: 0em;
+}
+
+.criteria ul {
+    list-style: none;
+    margin-left: 0em;
+    text-align: match-parent;
+    list-style-position: outside;
+}
+
+.criteria li{
+    text-indent: -2em;
+    padding-left: 1em;
+}
+
+.criteria li::before {
+    content: "✅";
+    margin-right: 1em;
+}
+
+
+
+

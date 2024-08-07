@@ -1,0 +1,42 @@
+
+![](assets/img/cs-pui-listing.jpg)
+
+# Post a Job Ad
+
+::: {.notice-blue}
+
+💡 You can email `jcrouser@smith.edu` if you run into any problems or need help.
+
+:::
+
+While we often post positions quickly after they are publicized, departments can also add their own advertisements to the site. **Make sure your department and university aligns with the website criteria**. [See the criteria](/#sec-criteria) for more information.
+ 
+There are two options: 
+1. You can add your information by **editing our Github repository** (and eventually creating a pull request). _Follow the instructions on the page below._
+2. Or if you're uncomfortable about making changes here, you can email `jcrouser@smith.edu` and Jordan will happily post your ad for you. 
+
+
+
+```yml
+---
+institution: Example College 
+location: Example City, Example Country
+deadline: 2024-10-01
+active: true
+type: Tenure Track
+url: https://cs-pui.github.io/
+---
+
+St. agur blue cheese edam **mascarpone**. Port-salut stinking bishop when the 
+cheese comes out everybody's happy cut the cheese cheddar paneer cheddar feta. 
+Queso blue castello queso gouda smelly cheese chalk and cheese cottage cheese 
+cheese on toast. Cheese slices pepper jack cheese on toast cheese and biscuits.
+**Mascarpone** blue castello *cheeseburger*. St. agur blue cheese st. agur blue 
+cheese cheeseburger bavarian bergkase cheesy feet squirty cheese who moved my 
+cheese jarlsberg. Cheese and biscuits danish fontina pepper jack blue castello 
+camembert de normandie emmental airedale airedale. Who moved my cheese st. agur 
+blue cheese. 
+<br> <br>
+🗓️ Review of applications begins ***October 1st, 2024*** and will continue 
+until the position is filled. 
+```

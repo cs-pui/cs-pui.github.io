@@ -12,7 +12,6 @@
     <% archiveDate.setDate(1) %>
 <% } %>
 
-
 <% for (const item of items) { %>  
   <% var itemDate = new Date(item.deadline) %>
   <% itemDate.setHours(25) %>
@@ -20,14 +19,13 @@
   <div class="jobs">
   <h3 id ="sec-<%- item.institution %>-<%- item.type %>-<%- item.deadline %>"><%- item.institution %> (<%- item.type %>)</h3>
   </div>
-  <%= item.description %> 
   <% var deadlineDisplay = itemDate.toLocaleString("en-US", {weekday: "long",
   year: "numeric",
   month: "long",
   day: "numeric"}) %>
-  
-  
-  🗓️ Review of applications begins <span class="deadline-highlight"><%= deadlineDisplay %></span>.
+  <% var description = String(item.description) %>
+
+  <%= description%>
   <br> 
   🌎  <%= item.location %>
 
