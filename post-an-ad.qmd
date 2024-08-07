@@ -1,21 +1,91 @@
-
-![](assets/img/cs-pui-listing.jpg)
+---
+toc: true
+---
 
 # Post a Job Ad
 
-::: {.notice-blue}
+![](assets/img/cs-pui-listing.jpg)
+
+::: {.notice .notice-blue}
 
 💡 You can email `jcrouser@smith.edu` if you run into any problems or need help.
 
 :::
 
+::: {.notice .notice-red}
+
+It's polite to **close** your ad after your search has officially concluded. 
+
+:::
+
 While we often post positions quickly after they are publicized, departments can also add their own advertisements to the site. **Make sure your department and university aligns with the website criteria**. [See the criteria](/#sec-criteria) for more information.
  
-There are two options: 
-1. You can add your information by **editing our Github repository** (and eventually creating a pull request). _Follow the instructions on the page below._
-2. Or if you're uncomfortable about making changes here, you can email `jcrouser@smith.edu` and Jordan will happily post your ad for you. 
+## Ways to Post 
 
 
+There are two ways to post your ad: 
+
+1. You can add your information by **editing our Github repository** (and eventually creating a pull request). Follow the instructions on the page below. **This is our preferred method for users who are comfortable navigating GitHub and editing plaintext files.**
+2. If you do not feel comfortable navigating GitHub or editing plaintext files, you can email `jcrouser@smith.edu` and Jordan will happily post your ad for you. 
+
+
+## Required Content
+
+Each job posting includes several required metadata fields, as well as a brief description of the position. 
+
+### Required Metadata Fields
+
+The following information is required for every job posting, whether submitted on GitHub or via email. If submitted via GitHub, you are responsible for populating these fields in the YAML frontmatter of your job posting. If submitted via email, please include this information in your email.
+
+- **Institution**: the name of your institution. 
+- **Location**: the city and country of your institution.
+- **Deadline**: the date by which applications should be received. If the deadline is soft/rolling, please provide an approximate date or the day on which review of applications will begin. 
+- **Active**: whether the position is still open. 
+- **Type**: the type of position: tenure track, visiting, or adjunct. 
+- **URL**: a link to the official job posting.
+
+### Guidelines for Job Descriptions
+
+We encourage you to heavily abbreviate the official job description in order to minimize boilerplate and convey as many concrete, salient facts about the position as possible. We especially encourage you to communicate considerations like: 
+
+- Teaching load
+- Availability of startup funds
+- Availability of sabbaticals, especially pre-tenure sabbaticals 
+- Desired research areas, of applicable
+- Desired seniority level, of applicable
+
+We strongly encourage all job descriptions to be **one paragraph**, followed by a single line describing the review process and date. 
+
+## Posting on GitHub
+
+::: {.notice .notice-blue}
+
+Following these instructions requires an account on GitHub.com. If you don't already have one, the best approach is probably to [email your posting](#emailing-your-posting). 
+
+:::
+
+To post on GitHub
+
+1. Navigate to the `jobs` folder of the `cs-pui` repository on GitHub, [linked here](https://github.com/cs-pui/prototype/tree/main/jobs).
+2. Click the "Add file" button and select "Create new file". 
+3. Name your file with the following format: `Institution-Name-YYYY-MM-DD.qmd`, filling in the name of your institution as well as the year, month, and day of the closing of the position. Note that the file extension must be `.qmd`, **not** the more-familiar `.md` extension for markdown documents. 
+4. Copy and paste the following code block into your new file.
+    - Hovering over  on the upper right of the code block will reveal a clipboard icon. You can click this icon to instantly copy the code. 
+5. Replace the placeholder metadata and text with the actual information for your posting. 
+6. Click the green "Commit changes" button at the bottom of the page.
+7. Choose to create a new branch and start a pull request. The exact name of the branch is not important. 
+8. Click the green "Propose changes" button. 
+
+That's it! One of the site maintainers will review your pull request, make any required formatting changes, and merge it onto the site shortly. 
+
+### Formatting Requirements
+
+Please attend to three small pieces of formatting, which are all illustrated in the code block below:
+
+1. Please separate the line describing the deadline and deadline approach from the main description using **two** consecutive `<br>` tags. 
+2. Please ensure that the 🗓️ icon appears at the beginning of this line. 
+3. Please ensure that the deadline itself is surrounded by triple `***` on both sides, like this: `***October 1st, 2024***`. This will render as a highlight: ***October 1st, 2024***. 
+    - Please also check that the date you describe in this line matches the deadline in the metadata. 
 
 ```yml
 ---
@@ -40,3 +110,14 @@ blue cheese.
 🗓️ Review of applications begins ***October 1st, 2024*** and will continue 
 until the position is filled. 
 ```
+
+## Emailing your Posting {#email}
+
+To email your posting, please include both the required metadata and the job description in the body of an email to Dr. Jordan Crouser (`jcrouser@smith.edu`). 
+
+## Closing Your Ad {#close}
+
+After your search has officially concluded, **please close your ad**. To do so, you can again work either through GitHub or through email. 
+
+1. On Github, please navigate to the `*.qmd` file for your job posting. Change the `active` field from `true` to `false`. Please again commit your changes to a new branch. We'll merge in your changes to close the job. 
+2. You can also email Dr. Jordan Crouser (`jcrouser@smith.edu`) with a request to close your ad. Make sure to clearly identify which ad is yours, especially if your institution has made multiple postings this job season. 
