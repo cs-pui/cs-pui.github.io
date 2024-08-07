@@ -11,11 +11,6 @@ listing:
       - "jobs/*.qmd"
     template: ejs/due-date-past.ejs
     max-description-length: 20000
-  - id: closed
-    contents: 
-      - "jobs/*.qmd"
-    template: ejs/closed.ejs
-    max-description-length: 20000
   - id: active-description
     contents: 
       - "jobs/*.qmd" 
@@ -68,16 +63,6 @@ Some of these searches *may* still be accepting applications; you might consider
 :::{#due-date-past}
 :::
                     
-### Closed Searches      
-
-These searches took place this job season and have been confirmed by their department to be closed. 
-
-
-:::{#closed}
-:::
-
-
-
 # Position Descriptions 
      
 Below are the position descriptions for all of this year's searches which are not confirmed to be closed.  
