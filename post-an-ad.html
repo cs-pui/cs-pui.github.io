@@ -105,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -153,21 +153,112 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#post-a-job-ad" id="toc-post-a-job-ad" class="nav-link active" data-scroll-target="#post-a-job-ad">Post a Job Ad</a>
+  <ul class="collapse">
+  <li><a href="#ways-to-post" id="toc-ways-to-post" class="nav-link" data-scroll-target="#ways-to-post">Ways to Post</a></li>
+  <li><a href="#required-content" id="toc-required-content" class="nav-link" data-scroll-target="#required-content">Required Content</a>
+  <ul class="collapse">
+  <li><a href="#required-metadata-fields" id="toc-required-metadata-fields" class="nav-link" data-scroll-target="#required-metadata-fields">Required Metadata Fields</a></li>
+  <li><a href="#guidelines-for-job-descriptions" id="toc-guidelines-for-job-descriptions" class="nav-link" data-scroll-target="#guidelines-for-job-descriptions">Guidelines for Job Descriptions</a></li>
+  </ul></li>
+  <li><a href="#posting-on-github" id="toc-posting-on-github" class="nav-link" data-scroll-target="#posting-on-github">Posting on GitHub</a>
+  <ul class="collapse">
+  <li><a href="#formatting-requirements" id="toc-formatting-requirements" class="nav-link" data-scroll-target="#formatting-requirements">Formatting Requirements</a></li>
+  </ul></li>
+  <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email">Emailing your Posting</a></li>
+  <li><a href="#close" id="toc-close" class="nav-link" data-scroll-target="#close">Closing Your Ad</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
 
-<p><img src="assets/img/cs-pui-listing.jpg" class="img-fluid"></p>
 <section id="post-a-job-ad" class="level1">
 <h1>Post a Job Ad</h1>
-<div class="notice-blue">
+<p><img src="assets/img/cs-pui-listing.jpg" class="img-fluid"></p>
+<div class="notice notice-blue">
 <p>💡 You can email <code>jcrouser@smith.edu</code> if you run into any problems or need help.</p>
 </div>
+<div class="notice notice-red">
+<p>It’s polite to <strong>close</strong> your ad after your search has officially concluded.</p>
+</div>
 <p>While we often post positions quickly after they are publicized, departments can also add their own advertisements to the site. <strong>Make sure your department and university aligns with the website criteria</strong>. <a href="./#sec-criteria">See the criteria</a> for more information.</p>
-<p>There are two options: 1. You can add your information by <strong>editing our Github repository</strong> (and eventually creating a pull request). <em>Follow the instructions on the page below.</em> 2. Or if you’re uncomfortable about making changes here, you can email <code>jcrouser@smith.edu</code> and Jordan will happily post your ad for you.</p>
+<section id="ways-to-post" class="level2">
+<h2 class="anchored" data-anchor-id="ways-to-post">Ways to Post</h2>
+<p>There are two ways to post your ad:</p>
+<ol type="1">
+<li>You can add your information by <strong>editing our Github repository</strong> (and eventually creating a pull request). Follow the instructions on the page below. <strong>This is our preferred method for users who are comfortable navigating GitHub and editing plaintext files.</strong></li>
+<li>If you do not feel comfortable navigating GitHub or editing plaintext files, you can email <code>jcrouser@smith.edu</code> and Jordan will happily post your ad for you.</li>
+</ol>
+</section>
+<section id="required-content" class="level2">
+<h2 class="anchored" data-anchor-id="required-content">Required Content</h2>
+<p>Each job posting includes several required metadata fields, as well as a brief description of the position.</p>
+<section id="required-metadata-fields" class="level3">
+<h3 class="anchored" data-anchor-id="required-metadata-fields">Required Metadata Fields</h3>
+<p>The following information is required for every job posting, whether submitted on GitHub or via email. If submitted via GitHub, you are responsible for populating these fields in the YAML frontmatter of your job posting. If submitted via email, please include this information in your email.</p>
+<ul>
+<li><strong>Institution</strong>: the name of your institution.</li>
+<li><strong>Location</strong>: the city and country of your institution.</li>
+<li><strong>Deadline</strong>: the date by which applications should be received. If the deadline is soft/rolling, please provide an approximate date or the day on which review of applications will begin.</li>
+<li><strong>Active</strong>: whether the position is still open.</li>
+<li><strong>Type</strong>: the type of position: tenure track, visiting, or adjunct.</li>
+<li><strong>URL</strong>: a link to the official job posting.</li>
+</ul>
+</section>
+<section id="guidelines-for-job-descriptions" class="level3">
+<h3 class="anchored" data-anchor-id="guidelines-for-job-descriptions">Guidelines for Job Descriptions</h3>
+<p>We encourage you to heavily abbreviate the official job description in order to minimize boilerplate and convey as many concrete, salient facts about the position as possible. We especially encourage you to communicate considerations like:</p>
+<ul>
+<li>Teaching load</li>
+<li>Availability of startup funds</li>
+<li>Availability of sabbaticals, especially pre-tenure sabbaticals</li>
+<li>Desired research areas, of applicable</li>
+<li>Desired seniority level, of applicable</li>
+</ul>
+<p>We strongly encourage all job descriptions to be <strong>one paragraph</strong>, followed by a single line describing the review process and date.</p>
+</section>
+</section>
+<section id="posting-on-github" class="level2">
+<h2 class="anchored" data-anchor-id="posting-on-github">Posting on GitHub</h2>
+<div class="notice notice-blue">
+<p>Following these instructions requires an account on GitHub.com. If you don’t already have one, the best approach is probably to <a href="#emailing-your-posting">email your posting</a>.</p>
+</div>
+<p>To post on GitHub</p>
+<ol type="1">
+<li>Navigate to the <code>jobs</code> folder of the <code>cs-pui</code> repository on GitHub, <a href="https://github.com/cs-pui/prototype/tree/main/jobs">linked here</a>.</li>
+<li>Click the “Add file” button and select “Create new file”.</li>
+<li>Name your file with the following format: <code>Institution-Name-YYYY-MM-DD.qmd</code>, filling in the name of your institution as well as the year, month, and day of the closing of the position. Note that the file extension must be <code>.qmd</code>, <strong>not</strong> the more-familiar <code>.md</code> extension for markdown documents.</li>
+<li>Copy and paste the following code block into your new file.
+<ul>
+<li>Hovering over on the upper right of the code block will reveal a clipboard icon. You can click this icon to instantly copy the code.</li>
+</ul></li>
+<li>Replace the placeholder metadata and text with the actual information for your posting.</li>
+<li>Click the green “Commit changes” button at the bottom of the page.</li>
+<li>Choose to create a new branch and start a pull request. The exact name of the branch is not important.</li>
+<li>Click the green “Propose changes” button.</li>
+</ol>
+<p>That’s it! One of the site maintainers will review your pull request, make any required formatting changes, and merge it onto the site shortly.</p>
+<section id="formatting-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="formatting-requirements">Formatting Requirements</h3>
+<p>Please attend to three small pieces of formatting, which are all illustrated in the code block below:</p>
+<ol type="1">
+<li>Please separate the line describing the deadline and deadline approach from the main description using <strong>two</strong> consecutive <code>&lt;br&gt;</code> tags.</li>
+<li>Please ensure that the 🗓️ icon appears at the beginning of this line.</li>
+<li>Please ensure that the deadline itself is surrounded by triple <code>***</code> on both sides, like this: <code>***October 1st, 2024***</code>. This will render as a highlight: <strong><em>October 1st, 2024</em></strong>.
+<ul>
+<li>Please also check that the date you describe in this line matches the deadline in the metadata.</li>
+</ul></li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">institution</span><span class="kw">:</span><span class="at"> Example College </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">location</span><span class="kw">:</span><span class="at"> Example City, Example Country</span></span>
@@ -189,8 +280,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">&lt;br&gt; &lt;br&gt;</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">🗓️ Review of applications begins ***October 1st, 2024*** and will continue </span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">until the position is filled. </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="email" class="level2">
+<h2 class="anchored" data-anchor-id="email">Emailing your Posting</h2>
+<p>To email your posting, please include both the required metadata and the job description in the body of an email to Dr.&nbsp;Jordan Crouser (<code>jcrouser@smith.edu</code>).</p>
+</section>
+<section id="close" class="level2">
+<h2 class="anchored" data-anchor-id="close">Closing Your Ad</h2>
+<p>After your search has officially concluded, <strong>please close your ad</strong>. To do so, you can again work either through GitHub or through email.</p>
+<ol type="1">
+<li>On Github, please navigate to the <code>*.qmd</code> file for your job posting. Change the <code>active</code> field from <code>true</code> to <code>false</code>. Please again commit your changes to a new branch. We’ll merge in your changes to close the job.</li>
+<li>You can also email Dr.&nbsp;Jordan Crouser (<code>jcrouser@smith.edu</code>) with a request to close your ad. Make sure to clearly identify which ad is yours, especially if your institution has made multiple postings this job season.</li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
