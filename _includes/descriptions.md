@@ -149,6 +149,19 @@ _Excerpt_ The Department of Mathematics and Computer Science at Davidson College
 
 ------------
 
+### Eastern Michigan University
+{: #emu}
+
+[Excerpt] Eastern Michigan University’s Department of Computer Science seeks applicants for tenure-track assistant professor position to begin Fall 2025. Expectations: 1) the ability to teach a variety of Computer Science courses at the undergraduate and graduate levels, 2) completed PhD by August 2025, 3) research areas: AI/ML, Software Engineering, Data Science, Theory, Embedded Systems, or any other Computer Science research area. Apply online via (careers.emich.edu)[https://careers.emich.edu/jobs/assistant-professor-computer-science-ypsilanti-michigan-united-states-072c6865-98e9-4364-aa86-1c90d7563734]. 
+
+- Priority consideration will be given to applications received by **October 28, 2024**. Review of applications will begin shortly thereafter and will continue until the position is filled.
+- Ypsilanti, MI. USA
+
+[Full Job Posting](https://careers.emich.edu/jobs/assistant-professor-computer-science-ypsilanti-michigan-united-states-072c6865-98e9-4364-aa86-1c90d7563734){: .button-job}
+[_back to all deadlines_](#deadlines)
+
+------------
+
 ### Franklin & Marshall College
 {: #franklinmarshall}
 

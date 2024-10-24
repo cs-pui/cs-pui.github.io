@@ -33,6 +33,7 @@
 | [Randolph-Macon College](#randolph) | Ashland, VA. USA | 10/21/2024 | 
 | [Xavier University](#xavier) | Cincinnati, OH. USA | 10/21/2024 |
 | [Franklin & Marshall College](#franklinmarshall) | Lancaster, PA. USA | 10/25/2024 |
+| [Eastern Michigan University](#emu) | Ypsilanti, MI. USA | 10/28/2024 (open until filled) |
 | [St. Mary's College of Maryland](#smcm) | St. Mary's City, MD. USA | 11/1/2024 |
 | [Williams College](#williams) | Williamstown, MA. USA | 11/08/2024 |
 | [Hampden-Sydney College](#hampden-sydney) | Hampden-Sydney, VA. USA| 11/15/2024|
