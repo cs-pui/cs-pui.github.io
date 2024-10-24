@@ -26,5 +26,7 @@ A handful of resources that include wisdom from CS faculty at PUIs:
 
 - Dr. Leah Perlmuuter's (Grinnell College) [**faculty page**](https://perlmutter.cs.grinnell.edu/home/#apps): Leah includes a short note on her applicatoin experience and shares her application materials to Grinnell for guidance to future applicants.
 
+- Dr. Emily Jensen's (Franklin & Marshall College) [**personal website**](https://emilykjensen.com/docs/): Emily  promotes transparency about the academic career path. and has shared the documents Emily prepared and used as part of the tenure-track job application process.
+
 _If you come across other resources, [submit a pull request on this page](https://github.com/cs-pui/cs-pui.github.io/blob/master/resources.md) or email me at `evan.peck@colorado.edu`_
 
