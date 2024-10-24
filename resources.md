@@ -24,7 +24,7 @@ A handful of resources that include wisdom from CS faculty at PUIs:
 
 - Dr. Amanda Stent's (Colby College) [**Academic CS Careers at Liberal Arts Colleges**](https://medium.com/@ajstent/academic-cs-careers-at-liberal-arts-colleges-917b0d3e82ab): Amanda writes a nice FAQ outlining life as a CS prof at liberal arts colleges, including application guidance.
 
-- Dr. Leah Perlmuuter's (Grinnell College) [**faculty page**](https://perlmutter.cs.grinnell.edu/home/#apps): Leah includes a short note on her applicatoin experience and shares her application materials to Grinnell for guidance to future applicants.
+- Dr. Leah Perlmutter's (Grinnell College) [**faculty page**](https://perlmutter.cs.grinnell.edu/home/#apps): Leah includes a short note on her applicatoin experience and shares her application materials to Grinnell for guidance to future applicants.
 
 _If you come across other resources, [submit a pull request on this page](https://github.com/cs-pui/cs-pui.github.io/blob/master/resources.md) or email me at `evan.peck@colorado.edu`_
 
