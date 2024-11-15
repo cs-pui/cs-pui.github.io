@@ -1,9 +1,9 @@
 ---
-institution: Example College 
+institution: Example College
 location: Example City, Example Country
-deadline: 2023-10-15
-active: true
-type: Tenure Track
+deadline: 2024-12-15
+active: True
+type: Visiting
 url: https://cs-pui.github.io/
 ---
 
@@ -11,4 +11,4 @@ St. agur blue cheese edam mascarpone. Port-salut stinking bishop when the cheese
 <br> <br>
 Mascarpone blue castello cheeseburger. St. agur blue cheese st. agur blue cheese cheeseburger bavarian bergkase cheesy feet squirty cheese who moved my cheese jarlsberg. Cheese and biscuits danish fontina pepper jack blue castello camembert de normandie emmental airedale airedale. Who moved my cheese st. agur blue cheese. 
 <br><br>
-🗓️ Review of applications begins ***October 1st, 2024*** and will continue until the position is filled. 
+🗓️ Review of applications begins ***December 15th, 2024*** and will continue until the position is filled. 

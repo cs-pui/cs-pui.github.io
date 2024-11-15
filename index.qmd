@@ -50,15 +50,15 @@ The positions on this page should be...
       
 ### Deadlines and Quick Links {#sec-all-deadlines}      
 
-💡 **Deadlines are treated very differently between institutions**. Read carefully. For example, we _strongly_ encourage you to email search chairs if you're interested in positions that appear to have passed - they might still be open!
+The following searches are currently active and are definitely accepting applications. 
 
 
 :::{#active}
 :::  
 
 ### Due Date Past    
-  
-Some of these searches *may* still be accepting applications; you might consider contacting the department to check.                        
+
+The following searches have deadlines which are nominally past. However, **deadlines are treated very differently between institutions**. Read carefully. For example, we _strongly_ encourage you to email search chairs if you're interested in positions that appear to have passed - they might still be open! 
 
 :::{#due-date-past}
 :::
@@ -71,3 +71,7 @@ Below are the position descriptions for all of this year's searches which are no
 :::
    
  
+
+
+ 
+

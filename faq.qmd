@@ -12,7 +12,7 @@
 This website is run by a collective of professors with experience with undergraduate institutions with CS - [Anna Ritz (Reed College)](https://www.reed.edu/biology/ritz/), [Evan Peck (CU Boulder)](https://evanpeck.github.io), [John Rieffel (Union College)](https://cs.union.edu/~rieffelj/), [Jordan Crouser (Smith College)](https://www.smith.edu/academics/faculty/jordan-crouser), [Phil Chodrow (Middlebury College)](https://www.philchodrow.prof/), and [Varsha Koushik (Colorado College)](https://www.coloradocollege.edu/basics/contact/directory/people/koushik_varsha.html).
 
 [Evan Peck](https://evanpeck.github.io/) was the creator and primary maintainer of the earlist version of this site.  [Anna Ritz (Associate Prof of Biology at Reed College)](https://www.reed.edu/biology/ritz/) was also an early contributor. 
-
+ 
 ------------
 
 #### ❓ How much does it cost for departments to post? How do I post?
