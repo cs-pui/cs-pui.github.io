@@ -1,5 +1,5 @@
 ---
-institution: Amherst College - Systems 
+institution: Amherst College - Data Structures and Algorithms 
 location: Amherst, MA. USA
 deadline: 2024-10-14
 active: true
