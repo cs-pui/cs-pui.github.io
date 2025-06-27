@@ -75,6 +75,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-4434b13be912deb6b69a30905e88ee97.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -170,6 +173,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#posting-on-github" id="toc-posting-on-github" class="nav-link" data-scroll-target="#posting-on-github">Posting on GitHub</a>
   <ul class="collapse">
+  <li><a href="#example-post-template" id="toc-example-post-template" class="nav-link" data-scroll-target="#example-post-template">Example Post Template</a></li>
   <li><a href="#formatting-requirements" id="toc-formatting-requirements" class="nav-link" data-scroll-target="#formatting-requirements">Formatting Requirements</a></li>
   </ul></li>
   <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email">Emailing your Posting</a></li>
@@ -179,28 +183,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="post-a-job-ad" class="level1">
+<section id="post-a-job-ad" class="level1 page-columns page-full">
 <h1>Post a Job Ad</h1>
 <p><img src="assets/img/cs-pui-listing.jpg" class="img-fluid"></p>
-<div class="notice notice-blue">
-<p>💡 You can email <code>jcrouser@smith.edu</code> if you run into any problems or need help.</p>
-</div>
-<div class="notice notice-red">
-<p>It’s polite to <strong>close</strong> your ad after your search has officially concluded.</p>
-</div>
 <p>While we often post positions quickly after they are publicized, departments can also add their own advertisements to the site. <strong>Make sure your department and university aligns with the website criteria</strong>. <a href="./#sec-criteria">See the criteria</a> for more information.</p>
 <section id="ways-to-post" class="level2">
 <h2 class="anchored" data-anchor-id="ways-to-post">Ways to Post</h2>
 <p>There are two ways to post your ad:</p>
 <ol type="1">
-<li>You can add your information by <strong>editing our Github repository</strong> (and eventually creating a pull request). Follow the instructions on the page below. <strong>This is our preferred method for users who are comfortable navigating GitHub and editing plaintext files.</strong></li>
-<li>If you do not feel comfortable navigating GitHub or editing plaintext files, you can email <code>jcrouser@smith.edu</code> and Jordan will happily post your ad for you.</li>
+<li>You can add your information by <strong>editing our Github repository</strong> (and eventually creating a pull request), <a href="#posting-on-github">as described below</a>. <strong>This is our preferred method for users who are comfortable navigating GitHub and editing plaintext files.</strong></li>
+<li>You can submit your posting via a Google Form (TO BE FINALIZED). We will add then add your posting to the site, typically within a few days.</li>
 </ol>
+<div class="notice notice-blue">
+<p>💡 You can email <code>???@place.edu</code> if you run into any problems or need help.</p>
+</div>
+<div class="notice notice-red">
+<p>It’s polite to <a href="#closing-your-ad"><strong>close</strong> your ad</a> after your search has officially concluded.</p>
+</div>
 </section>
 <section id="required-content" class="level2">
 <h2 class="anchored" data-anchor-id="required-content">Required Content</h2>
@@ -230,17 +234,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>We strongly encourage all job descriptions to be <strong>one paragraph</strong>, followed by a single line describing the review process and date.</p>
 </section>
 </section>
-<section id="posting-on-github" class="level2">
+<section id="posting-on-github" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="posting-on-github">Posting on GitHub</h2>
 <div class="notice notice-blue">
 <p>Following these instructions requires an account on GitHub.com. If you don’t already have one, the best approach is probably to <a href="#emailing-your-posting">email your posting</a>.</p>
 </div>
-<p>To post on GitHub</p>
+<div class="notice notice-green">
+<p>There is no risk of messing up our site by following this workflow, even if you make an error. We’ll fix it with no harm done!</p>
+</div>
+<p>To post on GitHub, follow the steps below. The accompanying images illustrate several stages of this process; you can click on each one to enlarge.</p>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Creating a new file. <a href="assets/img/gh-1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="assets/img/gh-1.png" class="img-fluid"></a> Committing a new ad. <a href="assets/img/gh-2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="assets/img/gh-2.png" class="img-fluid"></a> Proposing changes. <a href="assets/img/gh-3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="assets/img/gh-3.png" class="img-fluid"></a></span></div></div>
 <ol type="1">
 <li>Navigate to the <code>jobs</code> folder of the <code>cs-pui</code> repository on GitHub, <a href="https://github.com/cs-pui/prototype/tree/main/jobs">linked here</a>.</li>
 <li>Click the “Add file” button and select “Create new file”.</li>
 <li>Name your file with the following format: <code>Institution-Name-YYYY-MM-DD.qmd</code>, filling in the name of your institution as well as the year, month, and day of the closing of the position. Note that the file extension must be <code>.qmd</code>, <strong>not</strong> the more-familiar <code>.md</code> extension for markdown documents.</li>
-<li>Copy and paste the following code block into your new file.
+<li>Copy and paste the Example Post Template into your new file.
 <ul>
 <li>Hovering over on the upper right of the code block will reveal a clipboard icon. You can click this icon to instantly copy the code.</li>
 </ul></li>
@@ -250,17 +258,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Click the green “Propose changes” button.</li>
 </ol>
 <p>That’s it! One of the site maintainers will review your pull request, make any required formatting changes, and merge it onto the site shortly.</p>
-<section id="formatting-requirements" class="level3">
-<h3 class="anchored" data-anchor-id="formatting-requirements">Formatting Requirements</h3>
-<p>Please attend to three small pieces of formatting, which are all illustrated in the code block below:</p>
-<ol type="1">
-<li>Please separate the line describing the deadline and deadline approach from the main description using <strong>two</strong> consecutive <code>&lt;br&gt;</code> tags.</li>
-<li>Please ensure that the 🗓️ icon appears at the beginning of this line.</li>
-<li>Please ensure that the deadline itself is surrounded by triple <code>***</code> on both sides, like this: <code>***October 1st, 2024***</code>. This will render as a highlight: <strong><em>October 1st, 2024</em></strong>.
-<ul>
-<li>Please also check that the date you describe in this line matches the deadline in the metadata.</li>
-</ul></li>
-</ol>
+<section id="example-post-template" class="level3">
+<h3 class="anchored" data-anchor-id="example-post-template">Example Post Template</h3>
 <div class="sourceCode" id="cb1"><pre class="sourceCode yml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">institution</span><span class="kw">:</span><span class="at"> Example College </span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">location</span><span class="kw">:</span><span class="at"> Example City, Example Country</span></span>
@@ -282,6 +281,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="at">&lt;br&gt; &lt;br&gt;</span></span>
 <span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="at">🗓️ Review of applications begins ***October 1st, 2024*** and will continue </span></span>
 <span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="at">until the position is filled. </span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="formatting-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="formatting-requirements">Formatting Requirements</h3>
+<p>Please attend to three small pieces of formatting, which are all illustrated in the code block above:</p>
+<ol type="1">
+<li>Please separate the line describing the deadline and deadline approach from the main description using <strong>two</strong> consecutive <code>&lt;br&gt;</code> tags.</li>
+<li>Please ensure that the 🗓️ icon appears at the beginning of this line.</li>
+<li>Please ensure that the deadline itself is surrounded by triple <code>***</code> on both sides, like this: <code>***October 1st, 2024***</code>. This will render as a highlight: <strong><em>October 1st, 2024</em></strong>.
+<ul>
+<li>Please also check that the date you describe in this line matches the deadline in the metadata.</li>
+</ul></li>
+</ol>
 </section>
 </section>
 <section id="email" class="level2">
@@ -701,6 +712,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
