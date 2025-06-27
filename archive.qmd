@@ -12,7 +12,7 @@ listing:
 
 # Archive
 
-This page is an archive of job postings from previous years [A new "year" is considered to begin on July 1st.]{.aside} It is provided primarily for historical purposes. Links navigate to the original job postings. These links may be broken, contain outdated information, or otherwise be unreliable. 
+This page is an archive of job postings which are no longer active. [Ads are considered to be no longer active if either (a) the posting department has explicitly said that the posting is inactive or (b) the ad was posted before July 1st. ]{.aside} It is provided primarily for historical purposes. Links navigate to the original job postings. These links may be broken, contain outdated information, or otherwise be unreliable. 
 
 ::: {.notice .notice-blue}
 

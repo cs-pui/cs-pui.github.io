@@ -2,7 +2,7 @@
 institution: Example College
 location: Example City, Example Country
 deadline: 2024-12-15
-active: True
+active: False
 type: Visiting
 url: https://cs-pui.github.io/
 ---

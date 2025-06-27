@@ -1,32 +1,34 @@
 ---
 toc: true
+fig-cap-location: top
 ---
 
 # Post a Job Ad
 
 ![](assets/img/cs-pui-listing.jpg)
 
-::: {.notice .notice-blue}
-
-💡 You can email `jcrouser@smith.edu` if you run into any problems or need help.
-
-:::
-
-::: {.notice .notice-red}
-
-It's polite to **close** your ad after your search has officially concluded. 
-
-:::
 
 While we often post positions quickly after they are publicized, departments can also add their own advertisements to the site. **Make sure your department and university aligns with the website criteria**. [See the criteria](/#sec-criteria) for more information.
  
 ## Ways to Post 
 
-
 There are two ways to post your ad: 
 
-1. You can add your information by **editing our Github repository** (and eventually creating a pull request). Follow the instructions on the page below. **This is our preferred method for users who are comfortable navigating GitHub and editing plaintext files.**
-2. If you do not feel comfortable navigating GitHub or editing plaintext files, you can email `jcrouser@smith.edu` and Jordan will happily post your ad for you. 
+1. You can add your information by **editing our Github repository** (and eventually creating a pull request), [as described below](#posting-on-github). **This is our preferred method for users who are comfortable navigating GitHub and editing plaintext files.**
+2. You can submit your posting via a Google Form (TO BE FINALIZED). We will add then add your posting to the site, typically within a few days. 
+
+
+::: {.notice .notice-blue}
+
+💡 You can email `???@place.edu` if you run into any problems or need help.
+
+:::
+
+::: {.notice .notice-red}
+
+It's polite to [**close** your ad](#closing-your-ad) after your search has officially concluded. 
+
+:::
 
 
 ## Required Content
@@ -64,28 +66,33 @@ Following these instructions requires an account on GitHub.com. If you don't alr
 
 :::
 
-To post on GitHub
+::: {.notice .notice-green}
+
+There is no risk of messing up our site by following this workflow, even if you make an error. We'll fix it with no harm done! 
+
+:::
+
+To post on GitHub, follow the steps below. The accompanying images illustrate several stages of this process; you can click on each one to enlarge. 
+
+[Creating a new file. ![](assets/img/gh-1.png){.lightbox} 
+ Committing a new ad. ![](assets/img/gh-2.png){.lightbox} 
+ Proposing changes.   ![](assets/img/gh-3.png){.lightbox}]{.aside }
 
 1. Navigate to the `jobs` folder of the `cs-pui` repository on GitHub, [linked here](https://github.com/cs-pui/prototype/tree/main/jobs).
 2. Click the "Add file" button and select "Create new file". 
 3. Name your file with the following format: `Institution-Name-YYYY-MM-DD.qmd`, filling in the name of your institution as well as the year, month, and day of the closing of the position. Note that the file extension must be `.qmd`, **not** the more-familiar `.md` extension for markdown documents. 
-4. Copy and paste the following code block into your new file.
+4. Copy and paste the Example Post Template into your new file.
     - Hovering over  on the upper right of the code block will reveal a clipboard icon. You can click this icon to instantly copy the code. 
 5. Replace the placeholder metadata and text with the actual information for your posting. 
 6. Click the green "Commit changes" button at the bottom of the page.
 7. Choose to create a new branch and start a pull request. The exact name of the branch is not important. 
 8. Click the green "Propose changes" button. 
 
+
+
 That's it! One of the site maintainers will review your pull request, make any required formatting changes, and merge it onto the site shortly. 
 
-### Formatting Requirements
-
-Please attend to three small pieces of formatting, which are all illustrated in the code block below:
-
-1. Please separate the line describing the deadline and deadline approach from the main description using **two** consecutive `<br>` tags. 
-2. Please ensure that the 🗓️ icon appears at the beginning of this line. 
-3. Please ensure that the deadline itself is surrounded by triple `***` on both sides, like this: `***October 1st, 2024***`. This will render as a highlight: ***October 1st, 2024***. 
-    - Please also check that the date you describe in this line matches the deadline in the metadata. 
+### Example Post Template
 
 ```yml
 ---
@@ -110,6 +117,17 @@ blue cheese.
 🗓️ Review of applications begins ***October 1st, 2024*** and will continue 
 until the position is filled. 
 ```
+
+
+### Formatting Requirements
+
+Please attend to three small pieces of formatting, which are all illustrated in the code block above:
+
+1. Please separate the line describing the deadline and deadline approach from the main description using **two** consecutive `<br>` tags. 
+2. Please ensure that the 🗓️ icon appears at the beginning of this line. 
+3. Please ensure that the deadline itself is surrounded by triple `***` on both sides, like this: `***October 1st, 2024***`. This will render as a highlight: ***October 1st, 2024***. 
+    - Please also check that the date you describe in this line matches the deadline in the metadata. 
+
 
 ## Emailing your Posting {#email}
 

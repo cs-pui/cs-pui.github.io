@@ -23,7 +23,7 @@
     <% for (const item of items) { %>
       <% var itemDate = new Date(item.deadline) %>
       <% itemDate.setHours(25) %>
-      <% if (itemDate <= archiveDate) { %>
+      <% if (itemDate <= archiveDate | !item.active) { %>
     <tr>
       <td><a href= <%= item.url %>><%= item.institution %></a></td>
       <td><%= item.type %></td>
