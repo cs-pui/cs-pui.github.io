@@ -23,6 +23,32 @@ _Excerpt_ The Amherst College Department of Computer Science invites application
 
 ------------
 
+### Furman University - Data Science
+{: #furman-data}
+
+_Excerpt_  The Department of Computer Science at Furman University invites applications for two tenure track positions at the Assistant, Associate, or Full Professor rank to begin August 1, 2026. We are specifically seeking at least one candidate with expertise in data science, including machine learning, data visualization, and statistical modeling, who can develop and teach courses in our expanding data science curriculum while mentoring undergraduate research in this growing field. 
+
+- Review of applications begins **September 1, 2025** and continues until the position is filled.
+- Greenville, SC. USA
+
+[Full Job Posting](https://furman.wd5.myworkdayjobs.com/Furman_Careers/job/Main-Campus/Tenure-Track-Professor-in-Computer-Science_R002898){: .button-job}
+[_back to all deadlines_](#deadlines)
+
+------------
+
+### Furman University - Any Specialization
+{: #furman-any}
+
+_Excerpt_  The Department of Computer Science at Furman University invites applications for two tenure track positions at the Assistant, Associate, or Full Professor rank to begin August 1, 2026. Candidates in all areas of specialization will be considered for the second position.
+
+- Review of applications begins **September 1, 2025** and continues until the position is filled.
+- Greenville, SC. USA
+
+[Full Job Posting](https://furman.wd5.myworkdayjobs.com/Furman_Careers/job/Main-Campus/Tenure-Track-Professor-in-Computer-Science_R002898){: .button-job}
+[_back to all deadlines_](#deadlines)
+
+------------
+
 ### Skidmore College
 {: #skidmore}
 
@@ -49,6 +75,7 @@ _Excerpt_ The Department of Computer Science at St. Bonaventure University invit
 [_back to all deadlines_](#deadlines)
 
 ------------
+
 
 ### St. Olaf College
 {: #st-olaf}
