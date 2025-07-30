@@ -35,6 +35,19 @@ _Excerpt_ The Department of Computer Science at Furman University invites applic
 
 ------------
 
+### Mount Holyoke College - Data Science
+{: #mount-holyoke-data}
+
+_Excerpt_ Mount Holyoke College invites applications for a tenure track position in Data Science at the Assistant Professor level beginning July 1, 2026. We welcome applications from researchers with expertise across the breadth of data science with no limitations on the array of academic fields in which they conduct their scholarship. Successful applicants will be well-qualified to teach at all levels, including an introductory data science course and a project-based capstone course, as well as courses in their area of expertise. We are particularly interested in candidates with enthusiasm for engaging in the development of a data science curriculum and enriching data science collaborations on campus. Applicants should have a strong commitment to research, as well as teaching and mentoring students who are broadly diverse with regard to race, ethnicity, socioeconomic status, gender, nationality, sexual orientation, disability, and religion. A research program that can easily accommodate and encourage undergraduates is crucial. The teaching load at Mount Holyoke College is 2/2.
+
+- Applications submitted by **September 25, 2025** will be assured of full consideration.
+- South Hadley, MA. USA
+
+[Full Job Posting](https://mtholyoke.wd5.myworkdayjobs.com/en-US/External/job/Assistant-Professor-of-Data-Science_R-0000002492){: .button-job} 
+[_back to all deadlines_](#deadlines)
+
+------------
+
 ### Skidmore College
 {: #skidmore}
 
