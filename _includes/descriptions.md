@@ -72,3 +72,18 @@ _Excerpt_ The Department of Mathematics, Statistics, and Computer Science (MSCS)
 
 [Full Job Posting](https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2052/){: .button-job} 
 [_back to all deadlines_](#deadlines)
+
+------------
+
+### Williams College
+{: #williams}
+
+_Excerpt_ The Department of Computer Science at Williams College invites applications for two tenure-track faculty positions, one at the assistant professor level and one open-rank, beginning July 1, 2026. The Assistant Professor position is a tenure-track position. The rank and initial term of the open-rank position will be determined by the qualifications of the successful candidate. We welcome candidates from all backgrounds and areas of computer science who can contribute to the vibrancy of our academic community through their research, teaching, and service for both positions.
+
+- Completed applications received by **October 1, 2025** will receive full consideration, and review of applications will continue until the position is filled.
+- Williamstown, MA. USA
+
+[Full Job Posting](https://csci.williams.edu/tenure-track-faculty-positions-in-computer-science/){: .button-job} 
+[_back to all deadlines_](#deadlines)
+
+------------

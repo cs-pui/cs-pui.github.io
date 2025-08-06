@@ -6,4 +6,5 @@
 | [St. Bonaventure](#st-bonaventure) | St. Bonaventure, NY. USA | 07/31/2025 |
 | [Furman University](#furman) | Greenville, SC. USA | 09/01/2025 |
 | [Skidmore College](#skidmore) | Saratoga Springs, NY. USA | 10/01/2025 |
+| [Williams College](#williams) | Williamstown, MA. USA | 10/01/2025 |
 | [St. Olaf College](#st-olaf) | Northfield, MN. USA | 10/17/2025 |
