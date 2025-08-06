@@ -72,3 +72,17 @@ _Excerpt_ The Department of Mathematics, Statistics, and Computer Science (MSCS)
 
 [Full Job Posting](https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2052/){: .button-job} 
 [_back to all deadlines_](#deadlines)
+
+------------
+
+### College of the Holy Cross
+{: #holycross}
+
+The Computer Science Program at the College of the Holy Cross invites applications for two full-time tenure-track Assistant Professor positions to begin in August 2026. All research specialties will be considered. Priority will be given to candidates whose research expertise and teaching interests are in computer systems, consider ethical or social issues in computing and technology, or any other area that complements the research expertise of the current computer science faculty. Candidates whose research area considers ethical or social issues in computing and technology will be considered for the Barrett Assistant Professorship in Computer Science.
+
+- For full consideration, please apply by **October 7, 2025**. 
+- Worcester, MA. USA
+
+[Full Job Posting](https://apply.interfolio.com/171639){: .button-job} 
+[_back to all deadlines_](#deadlines)
+
