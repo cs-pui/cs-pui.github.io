@@ -1,0 +1,13 @@
+---
+institution: College of the Holy Cross
+location: Worcester, MA. USA
+deadline: 2025-10-07
+active: true
+type: Tenure Track
+url: https://apply.interfolio.com/171639
+---
+
+The Computer Science Program at the College of the Holy Cross invites applications for two full-time tenure-track Assistant Professor positions to begin in August 2026. All research specialties will be considered. Priority will be given to candidates whose research expertise and teaching interests are in computer systems, consider ethical or social issues in computing and technology, or any other area that complements the research expertise of the current computer science faculty. Candidates whose research area considers ethical or social issues in computing and technology will be considered for the Barrett Assistant Professorship in Computer Science.
+<br> <br>
+🗓️ For full consideration, please apply by ***October 7, 2025***. 
+

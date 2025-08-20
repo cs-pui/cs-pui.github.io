@@ -1,0 +1,86 @@
+
+
+
+![](assets/img/cs-pui-listing.jpg)
+
+# Frequently Asked Questions
+
+------------
+
+#### ❓ Who maintains this site? 
+
+This website is run by a collective of professors with experience with undergraduate institutions with CS - [Anna Ritz (Reed College)](https://www.reed.edu/biology/ritz/), [Evan Peck (CU Boulder)](https://evanpeck.github.io), [John Rieffel (Union College)](https://cs.union.edu/~rieffelj/), [Jordan Crouser (Smith College)](https://www.smith.edu/academics/faculty/jordan-crouser), [Phil Chodrow (Middlebury College)](https://www.philchodrow.prof/), and [Varsha Koushik (Colorado College)](https://www.coloradocollege.edu/basics/contact/directory/people/koushik_varsha.html).
+
+[Evan Peck](https://evanpeck.github.io/) was the creator and primary maintainer of the earlist version of this site.  [Anna Ritz (Associate Prof of Biology at Reed College)](https://www.reed.edu/biology/ritz/) was also an early contributor. 
+ 
+------------
+
+#### ❓ How much does it cost for departments to post? How do I post?
+
+**Posting is free**. Please visit [our posting page](post-an-ad.qmd) for more information about listing your advertisement. 
+
+------------
+
+#### ❓ Does anyone look at it or use it? 
+
+During the 2021-2022 CS hiring season, the website attracted ~10,000 visits. While it's hard to quantify the impact of those views, we received emails from people each year hearing that it made an impact on both (1) departmental applicant pools (and ultimately, hiring), and (2) candidate decision-making. 
+ 
+We'd like to think that's pretty good impact-per-dollar-spent.
+
+On a personal note, contributor [Phil Chodrow](www.philchodrow.prof) found his current job through this site! 
+
+------------
+
+#### ❓ When are ads typically posted? 
+
+![Bar graph showing distribution of ad postings from last year - there is an early cluster at the beginning of August, and with some exceptions, another larger cluster starting in mid-September through the beginning of October... then sporadic additions until December.](assets/img/adsByDate-21.jpg)
+
+Some nuance to the data: 
+
+- Dates are based on when they appeared on this website and may not reflet the official date the ad was released. 
+- While ads typically appear here pretty quickly, there is occasionally some lag, so it's better to look for general trends with this chart. 
+- Some CS departments post 'ad forthcoming' here weeks before their official ad is live. 
+
+------------
+
+#### ❓ When do most schools set deadlines? 
+
+Below, you can see the distribution of when application deadlines from the 2021-2022 hiring season. You can see that the center of gravity seems to fall in the 2nd half of october. 
+
+![Bar graph showing the distribution of job ads posted by date - while postings are as early as Sept 1 and as late as Feb 1, there is a strong cluster between October 15 and November 1st](assets/img/deadlinesByDate-21.jpg)
+
+Some nuance to the data: 
+
+- Dates are based on the **final** deadlines at [cs-pui.github.io/index-21](https://cs-pui.github.io/index-21). A couple of the later dates are pretty misleading. They were initially set much earlier in the fall, but shifted later at some point (for a variety of reasons)
+- Quite a few departments still consider applications submitted after deadlines
+
+------------
+
+#### ❓ Why focus the website on permanent/tenure-track positions - what about _teaching-track faculty_ or _fixed-term positions_? We need those too! 
+
+
+We agree! Unfortunately, this site is curated on top of normal faculty duties, and without funding or compensation. As a result, we need to limit the scope to keep it manageable. We therefore prioritize and actively monitor tenure-track positions at institutions that are primarily undergraduate-focused (PUIs), while encouraging departments that match our scope to make their own submissions for visiting positions. 
+
+Widening the site's scope isn't as simple as increasing the quantity of ads, but expands the months of the year we need to keep close attention on the market, and brings significant new challenges to curation (_e.g. does a visiting prof position at a liberal arts school practically have time for scholarship? How should we articulate the immense diversity of teaching-track positions, which can range from a reality that isn't too distant from adjuncting to institutions that offer tenure?_). All of this is time-intensive.
+
+Until we can find resources for the site (if you have any leads, [let us know](mailto:evan.peck@colorado.edu))!, we have to keep the scope narrow. 
+
+------------
+
+#### ❓ How do I know whether my institution has enough emphasis on research? 
+
+
+There really isn't a hard set of rules here. However, many schools on our list have: 
+
+- _Reduced teaching load_ (in comparison to full-teaching colleges): The average teaching load is probably somewhere between a 2-2 or 3-2 (depending on how they define it). With only rare exceptions, 3-3 is a good guideline for an upper limit.  
+- _Startup packages:_ While packages in PUIs are nowhere near those in R1s, most institutions offer funds to kick-start research.
+- _Untenured leave:_ Most offer a pre-tenure leave of 1 or 2 semesters to help faculty invest in research 
+- _Internal research resources:_ This often includes some travel support for conferences and significant internal support for summer undergraduate research. 
+
+------------
+
+#### ❓ Can I put my school on the list if we have some grad students?  
+
+
+There is a lot of muddy ground here. In general, we don't include programs that graduate Ph.D. students. Most of the schools here either don't have Masters students _or_ graduate so few each year that they qualify as a liberal arts college. That being said, there are some schools on this list each year that are intensely undergraduate-focused even with larger Masters programs (and seem to have many other characteristics that look like a PUI). We're happy to include those institutions. 
+  

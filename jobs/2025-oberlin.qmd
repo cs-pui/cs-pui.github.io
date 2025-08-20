@@ -1,0 +1,13 @@
+---
+institution: Oberlin College
+location: Oberlin, OH. USA
+deadline: 2025-10-15
+active: true
+type: Tenure Track
+url: https://jobs.oberlin.edu/postings/16650
+---
+
+The Computer Science Department at Oberlin College invites applications for a full-time tenure track faculty position in the College of Arts and Sciences in Artificial Intelligence and Machine Learning. Initial appointment to this position will be for a term of four years beginning Fall of 2026, with an additional three years upon reappointment, and will carry the rank of Assistant Professor. ... Faculty members teach at all levels of the curriculum, and are active in original research that provides opportunities for undergraduate participation. Many of our majors go on to earn advanced degrees for leading CS graduate programs. Our majors are enthusiastic and actively engaged in their education. The Oberlin Computer Science department is dedicated to making CS accessible to all students, and uses active learning and other evidence-based pedagogies throughout our curriculum. The incumbent will teach the standard teaching load (4.5 courses per year with labs counting towards the total) at all levels of undergraduate Computer Science. This will include junior/senior-level elective courses in Artificial Intelligence and Machine Learning.
+<br> <br>
+🗓️ Review of applications will begin on ***October 15, 2025,*** and will continue until the position is filled. Completed applications received by the October 15th deadline will be guaranteed full consideration.
+

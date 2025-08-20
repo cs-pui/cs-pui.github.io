@@ -1,0 +1,13 @@
+---
+institution: St. Olaf College
+location: Northfield, MN. USA
+deadline: 2025-10-17
+active: true
+type: Tenure Track
+url: https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2052/
+---
+
+The Department of Mathematics, Statistics, and Computer Science (MSCS) at St. Olaf College invites applications for a full-time, tenure track position in Computer Science at the Assistant Professor level, to begin August 2026. We are looking for candidates with a PhD in Computer Science or a closely related field, and who can contribute broadly to our growing computer science program through teaching, research, and supervision of undergraduate research.
+<br> <br>
+🗓️ Review of applications will begin on ***October 17, 2025***, and will continue until the position is filled.
+

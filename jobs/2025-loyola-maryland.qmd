@@ -1,0 +1,15 @@
+---
+institution: Loyola University Maryland
+location: Baltimore, MD. USA
+deadline: 2025-09-07
+active: true
+type: Tenure Track
+url: https://www.loyola.edu/academics/computer-science/hiring.html
+---
+
+Loyola University Maryland is hiring a tenure-track assistant professor in computer science to start in fall 2026. Candidates must have a Ph.D. in Computer Science or a closely related field.
+<br> <br>
+Loyola is a liberal arts university with about 5000 undergraduates. Our major has been graduating between 25-30 students each year, and individual course sizes are capped at 20-24. We have a good mix of teaching and research expectations, with a 3/3 teaching load, startup, etc. We run two CS undergraduate degrees, and are heavily involved in interdisciplinary data science undergraduate and MS programs that have been established for 10 years. See more information about our department and the application requirements in our full job posting.
+<br> <br>
+🗓️ Priority consideration deadline for applications is ***September 7, 2025***.
+

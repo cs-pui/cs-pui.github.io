@@ -1,0 +1,25 @@
+---
+page-layout: article
+listing: 
+  - id: archive
+    contents: 
+      - "jobs/*.qmd"
+    template: ejs/archive.ejs
+    max-description-length: 20000
+---
+
+![](assets/img/cs-pui-listing.jpg)
+
+# Archive
+
+This page is an archive of job postings which are no longer active. [Ads are considered to be no longer active if either (a) the posting department has explicitly said that the posting is inactive or (b) the ad was posted before July 1st. ]{.aside} It is provided primarily for historical purposes. Links navigate to the original job postings. These links may be broken, contain outdated information, or otherwise be unreliable. 
+
+::: {.notice .notice-blue}
+
+This archive only goes back as far as our recent migration to a new website publishing system in advance of the 2024-2025 hiring season. If you are interested in older job postings, please check out [the previous version of our website](URL HERE).
+
+:::
+
+
+:::{#archive}
+:::

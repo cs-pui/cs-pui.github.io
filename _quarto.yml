@@ -1,0 +1,28 @@
+project:
+  type: website
+  title: "CS Jobs at Undergrad Institutions (PUIs)"
+  
+format: 
+  html: 
+    css: css/style.css
+
+website: 
+  navbar: 
+    background: "#f8f9fa"
+    search: true
+    left: 
+      - text: "Home"
+        href: index.qmd
+      - text: "FAQ"
+        href: faq.qmd
+      - text: "Post an Ad"
+        href: post-an-ad.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "Archive"
+        href: archive.qmd
+
+
+
+
+

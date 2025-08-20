@@ -1,0 +1,13 @@
+---
+institution: St. Bonaventure University
+location: St. Bonaventure, NY. USA
+deadline: 2025-07-31
+active: true
+type: Tenure Track
+url: https://www.schooljobs.com/careers/sbuedu/jobs/4965067/assistant-professor-of-computer-science
+---
+
+The Department of Computer Science at St. Bonaventure University invites applications for a tenure-track Assistant Professor to begin in either January or August of 2026. Current department research interests include AI & religion, collaborative data systems for social impact, natural language processing, and cybersecurity. 
+<br> <br>
+🗓️ Review of applications will begin on ***July 31, 2025***, and will continue until the position is filled.
+

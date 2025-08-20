@@ -1,0 +1,77 @@
+---
+page-layout: article
+listing: 
+  - id: active
+    contents: 
+      - "jobs/*.qmd"
+    template: ejs/active.ejs
+    max-description-length: 20000
+  - id: due-date-past
+    contents: 
+      - "jobs/*.qmd"
+    template: ejs/due-date-past.ejs
+    max-description-length: 20000
+  - id: active-description
+    contents: 
+      - "jobs/*.qmd" 
+    template: ejs/active-description.ejs
+    max-description-length: 20000
+---
+
+![](assets/img/cs-pui-listing.jpg)
+
+Despite their research-intensive PhDs, many graduates [find academic happiness with **primarily-undergraduate institutions**](https://medium.com/bucknell-hci/the-jobs-i-didnt-see-my-misconceptions-of-the-academic-job-market-9cb98b057422) because of the compelling balance they offer between teaching and research. But the pathways to these positions is often not clear (_how do I find these jobs?_), and often requires insider knowledge of a landscape that is invisible to PhD students. This listing is meant to help navigate that muddy water. [See archived listings from previous years](faq#archive).
+
+This document does _not_ contain most CS faculty positions. It's specifically intended for people who want to invest in teaching/mentorship with undergraduate students while still staying active in their scholarship. See our [**Resources**](resources) page for insight into the ways in which PUIs might differ in their interviewing processes and values. 
+
+
+::: {.notice .notice-blue}
+
+📣 **If you would like to add your position,** [please visit the **Post an Ad** page](/posting) for logistical details or the [**FAQ**](/faq) for more info about this site (it's free!). 
+
+:::
+  
+
+::: {.notice .notice-gray .criteria}
+
+##### Criteria For Job Postings {#sec-criteria}
+
+The positions on this page should be...
+
+- accessible to those with a Ph.D. in CS (or a closely related field)
+- permanent positions (mostly likely tenure-track) [_why?_](faq#scope)
+- universities that identify as **primarily-undergraduate institutions** [_why?_](faq#scope)
+- institutions that highly value teaching, but also _secure time and financial resources for faculty to remain engaged with research_. [_what does this mean?_](faq#research)
+
+ 
+:::
+
+# Searches This Year 
+      
+### Currently Active Searches
+
+The following searches are currently active and are definitely accepting applications. 
+
+
+:::{#active}
+:::  
+
+### Due Date Past    
+
+The following searches have deadlines which are nominally past. However, **deadlines are treated very differently between institutions**. Read carefully. For example, we _strongly_ encourage you to email search chairs if you're interested in positions that appear to have passed - they might still be open! 
+
+:::{#due-date-past}
+:::
+                    
+# Position Descriptions 
+     
+Below are the position descriptions for all of this year's searches which are not confirmed to be closed.  
+
+:::{#active-description}
+:::
+   
+ 
+
+
+ 
+
