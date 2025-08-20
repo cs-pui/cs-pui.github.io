@@ -1,0 +1,13 @@
+---
+institution: Amherst College - Data Structures and Algorithms 
+location: Amherst, MA. USA
+deadline: 2024-10-14
+active: true
+type: Tenure Track
+url: http://apply.interfolio.com/151826
+---
+
+The Amherst College Department of Computer Science invites applications for a full-time tenure-track position at the rank of assistant professor, beginning July 1, 2025.  Candidates with research in any area of data structures and algorithms, broadly construed, are welcome to apply.  Amherst College is one of the most diverse liberal arts colleges in the country. 
+<br> <br>
+🗓️ Applications received by ***October 14, 2024*** will be assured of full consideration. Review of applications will continue until the position is filled.
+

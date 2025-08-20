@@ -12,4 +12,8 @@ A handful of resources that include wisdom from CS faculty at PUIs:
 - Dr. Phil Chodrow's (Middlebury College) [**CS Jobs at Small Liberal Arts Colleges**](https://www.philchodrow.prof/job_app.html): Phil includes some tips from his recent application experience, and includes his application material. 
 - Dr. Amanda Stent's (Colby College) [**Academic CS Careers at Liberal Arts Colleges**](https://medium.com/@ajstent/academic-cs-careers-at-liberal-arts-colleges-917b0d3e82ab): Amanda writes a nice FAQ outlining life as a CS prof at liberal arts colleges, inclusing application guidance.  
 
+<<<<<<< HEAD
 *If you come across other resources, [submit a pull request on this page](https://github.com/cs-pui/cs-pui.github.io/blob/master/resources.md) or email Phil Chodrow at `pchodrow@middlebury.edu`.*
+=======
+_If you come across other resources, [submit a pull request on this page](https://github.com/cs-pui/cs-pui.github.io/blob/master/resources.md) or email me at `evan.peck@colorado.edu`_
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525

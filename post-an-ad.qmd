@@ -15,12 +15,20 @@ While we often post positions quickly after they are publicized, departments can
 There are two ways to post your ad: 
 
 1. You can add your information by **editing our Github repository** (and eventually creating a pull request), [as described below](#posting-on-github). **This is our preferred method for users who are comfortable navigating GitHub and editing plaintext files.**
+<<<<<<< HEAD
 2. You can submit your posting via a [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSejV-DqXOZ29c8NYyMvpAER_5JuW2YtZYJvllTP48VQZo8s1w/viewform). We will add then add your posting to the site, typically within a few days. 
+=======
+2. You can submit your posting via a Google Form (TO BE FINALIZED). We will add then add your posting to the site, typically within a few days. 
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525
 
 
 ::: {.notice .notice-blue}
 
+<<<<<<< HEAD
 💡 You can email Phil Chodrow (`pchodrow@middlebury.edu`) if you run into any problems or need help.
+=======
+💡 You can email `???@place.edu` if you run into any problems or need help.
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525
 
 :::
 
@@ -37,7 +45,11 @@ Each job posting includes several required metadata fields, as well as a brief d
 
 ### Required Metadata Fields
 
+<<<<<<< HEAD
 The following information is required for every job posting, whether submitted on GitHub or via Google Forms. If submitted via GitHub, you are responsible for populating these fields in the YAML frontmatter of your job posting. If submitted via Google Forms, you will be prompted to provide this information as part of the form. 
+=======
+The following information is required for every job posting, whether submitted on GitHub or via email. If submitted via GitHub, you are responsible for populating these fields in the YAML frontmatter of your job posting. If submitted via email, please include this information in your email.
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525
 
 - **Institution**: the name of your institution. 
 - **Location**: the city and country of your institution.
@@ -62,7 +74,11 @@ We strongly encourage all job descriptions to be **one paragraph**, followed by 
 
 ::: {.notice .notice-blue}
 
+<<<<<<< HEAD
 Following these instructions requires an account on GitHub.com. If you don't already have one, the best approach is probably to [use the Google Form](https://docs.google.com/forms/d/e/1FAIpQLSejV-DqXOZ29c8NYyMvpAER_5JuW2YtZYJvllTP48VQZo8s1w/viewform). 
+=======
+Following these instructions requires an account on GitHub.com. If you don't already have one, the best approach is probably to [email your posting](#emailing-your-posting). 
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525
 
 :::
 
@@ -88,6 +104,11 @@ To post on GitHub, follow the steps below. The accompanying images illustrate se
 7. Choose to create a new branch and start a pull request. The exact name of the branch is not important. 
 8. Click the green "Propose changes" button. 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525
 That's it! One of the site maintainers will review your pull request, make any required formatting changes, and merge it onto the site shortly. 
 
 ### Example Post Template
@@ -126,9 +147,21 @@ Please attend to three small pieces of formatting, which are all illustrated in 
 3. Please ensure that the deadline itself is surrounded by triple `***` on both sides, like this: `***October 1st, 2024***`. This will render as a highlight: ***October 1st, 2024***. 
     - Please also check that the date you describe in this line matches the deadline in the metadata. 
 
+<<<<<<< HEAD
+=======
+
+## Emailing your Posting {#email}
+
+To email your posting, please include both the required metadata and the job description in the body of an email to Dr. Jordan Crouser (`jcrouser@smith.edu`). 
+
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525
 ## Closing Your Ad {#close}
 
 After your search has officially concluded, **please close your ad**. To do so, you can again work either through GitHub or through email. 
 
 1. On Github, please navigate to the `*.qmd` file for your job posting. Change the `active` field from `true` to `false`. Please again commit your changes to a new branch. We'll merge in your changes to close the job. 
+<<<<<<< HEAD
 2. You can also email Phil Chodrow  (`pchodrow@middlebury.edu`) with a request to close your ad. Make sure to clearly identify which ad is yours, especially if your institution has made multiple postings this job season. 
+=======
+2. You can also email Dr. Jordan Crouser (`jcrouser@smith.edu`) with a request to close your ad. Make sure to clearly identify which ad is yours, especially if your institution has made multiple postings this job season. 
+>>>>>>> d66a2dcb4980aaf107907aa680de2bf6fd267525
