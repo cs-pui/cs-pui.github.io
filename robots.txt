@@ -1,1 +1,1 @@
-Sitemap: https://cs-pui.github.io/prototype/sitemap.xml
+Sitemap: https://cs-pui.github.io/sitemap.xml
