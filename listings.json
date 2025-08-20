@@ -2,23 +2,41 @@
   {
     "listing": "/archive.html",
     "items": [
-      "/jobs/2024-amherst-data-structures-algorithms.html",
-      "/jobs/2024-amherst-systems.html",
-      "/jobs/2024-ball-state.html",
-      "/jobs/2024-college-of-the-atlantic.html",
-      "/jobs/2024-example-visiting.html",
-      "/jobs/2024-hope-college.html"
+      "/jobs/2025-amherst-data-structures-algorithms.html",
+      "/jobs/2025-amherst-systems.html",
+      "/jobs/2025-barnard.html",
+      "/jobs/2025-furman-data-science.html",
+      "/jobs/2025-furman.html",
+      "/jobs/2025-grinnell.html",
+      "/jobs/2025-holy-cross.html",
+      "/jobs/2025-hope-college.html",
+      "/jobs/2025-loyola-maryland.html",
+      "/jobs/2025-mt-holyoke-data-science.html",
+      "/jobs/2025-oberlin.html",
+      "/jobs/2025-skidmore.html",
+      "/jobs/2025-st-bonaventure.html",
+      "/jobs/2025-st-olaf.html",
+      "/jobs/2025-williams.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
-      "/jobs/2024-amherst-data-structures-algorithms.html",
-      "/jobs/2024-amherst-systems.html",
-      "/jobs/2024-ball-state.html",
-      "/jobs/2024-college-of-the-atlantic.html",
-      "/jobs/2024-example-visiting.html",
-      "/jobs/2024-hope-college.html"
+      "/jobs/2025-amherst-data-structures-algorithms.html",
+      "/jobs/2025-amherst-systems.html",
+      "/jobs/2025-barnard.html",
+      "/jobs/2025-furman-data-science.html",
+      "/jobs/2025-furman.html",
+      "/jobs/2025-grinnell.html",
+      "/jobs/2025-holy-cross.html",
+      "/jobs/2025-hope-college.html",
+      "/jobs/2025-loyola-maryland.html",
+      "/jobs/2025-mt-holyoke-data-science.html",
+      "/jobs/2025-oberlin.html",
+      "/jobs/2025-skidmore.html",
+      "/jobs/2025-st-bonaventure.html",
+      "/jobs/2025-st-olaf.html",
+      "/jobs/2025-williams.html"
     ]
   }
 ]
