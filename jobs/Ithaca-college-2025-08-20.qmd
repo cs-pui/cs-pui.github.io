@@ -12,7 +12,7 @@ We seek a dynamic teacher-scholar committed to undergraduate education and to co
 Applicants from all areas of computer science are welcome, with particular encouragement for those specializing in artificial intelligence, 
 human-computer interaction, media-focused computation, computer systems, or cybersecurity. 
 Our department emphasizes small class sizes, close faculty-student collaboration, and project-based learning. Faculty are empowered to take initiative, contribute to shared governance, 
-and help guide the direction of the department. We pride ourselves on a strong culture of collegiality and consensus-driven decision-making. <br>
+and help guide the direction of the department. We pride ourselves on a strong culture of collegiality and consensus-driven decision-making. <br><br>
 Ithaca College supports a healthy work-life balance and provides resources for both teaching and research, including startup and travel funding, internal grant programs, and the 
 Summer Scholars undergraduate research initiative. Our facilities include dedicated research spaces, active-learning classrooms, and spacious faculty offices co-located with our classrooms.  
 Teaching load for computer science faculty is 2-2/3-2 (2 courses per semester one year and 3/2 courses the following year). 
