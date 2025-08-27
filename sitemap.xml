@@ -2,86 +2,90 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://cs-pui.github.io/resources.html</loc>
-    <lastmod>2025-08-27T15:06:00.115Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.451Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/faq.html</loc>
-    <lastmod>2025-08-27T15:06:00.113Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.449Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-furman.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-barnard.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.449Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-grinnell.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-hope-college.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
-    <loc>https://cs-pui.github.io/jobs/2025-holy-cross.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cs-pui.github.io/jobs/2025-loyola-maryland.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cs-pui.github.io/jobs/2025-st-olaf.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cs-pui.github.io/jobs/2025-williams.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cs-pui.github.io/post-an-ad.html</loc>
-    <lastmod>2025-08-27T15:06:00.115Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cs-pui.github.io/jobs/2025-amherst-data-structures-algorithms.html</loc>
-    <lastmod>2025-08-27T15:06:00.113Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cs-pui.github.io/jobs/2025-st-bonaventure.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
-  </url>
-  <url>
-    <loc>https://cs-pui.github.io/jobs/2025-furman-data-science.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <loc>https://cs-pui.github.io/jobs/2025-harvey-mudd.html</loc>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-amherst-systems.html</loc>
-    <lastmod>2025-08-27T15:06:00.113Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.449Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/jobs/2025-furman-data-science.html</loc>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/jobs/2025-st-bonaventure.html</loc>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/jobs/2025-amherst-data-structures-algorithms.html</loc>
+    <lastmod>2025-08-27T15:11:06.449Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/post-an-ad.html</loc>
+    <lastmod>2025-08-27T15:11:06.451Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/jobs/2025-williams.html</loc>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/jobs/2025-st-olaf.html</loc>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/jobs/2025-loyola-maryland.html</loc>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://cs-pui.github.io/jobs/2025-holy-cross.html</loc>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-ithaca-college.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-mt-holyoke-data-science.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-skidmore.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/jobs/2025-oberlin.html</loc>
-    <lastmod>2025-08-27T15:06:00.114Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.450Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/archive.html</loc>
-    <lastmod>2025-08-27T15:06:00.100Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.436Z</lastmod>
   </url>
   <url>
     <loc>https://cs-pui.github.io/index.html</loc>
-    <lastmod>2025-08-27T15:06:00.113Z</lastmod>
+    <lastmod>2025-08-27T15:11:06.449Z</lastmod>
   </url>
 </urlset>
