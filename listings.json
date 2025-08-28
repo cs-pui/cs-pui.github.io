@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
       "/jobs/2025-amherst-data-structures-algorithms.html",
       "/jobs/2025-amherst-systems.html",
@@ -22,7 +22,7 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
       "/jobs/2025-amherst-data-structures-algorithms.html",
       "/jobs/2025-amherst-systems.html",
