@@ -80,7 +80,7 @@ To post on GitHub, follow the steps below. The accompanying images illustrate se
 
 1. Navigate to the `jobs` folder of the `cs-pui` repository on GitHub, [linked here](https://github.com/cs-pui/prototype/tree/main/jobs).
 2. Click the "Add file" button and select "Create new file". 
-3. Name your file with the following format: `Institution-Name-YYYY-MM-DD.qmd`, filling in the name of your institution as well as the year, month, and day of the closing of the position. Note that the file extension must be `.qmd`, **not** the more-familiar `.md` extension for markdown documents. 
+3. Name your file with the following format: `YYYY-MM-DD-Institution-Name-Optional-Detail.qmd`, filling in the name of your institution as well as the year, month, and day of the closing of the position. "Optional details" most often means a specialty area sought, but other uses are ok. Note that the file extension must be `.qmd` (for Quarto Markdown), **not** the more-familiar `.md` extension for markdown documents. 
 4. Copy and paste the Example Post Template into your new file.
     - Hovering over  on the upper right of the code block will reveal a clipboard icon. You can click this icon to instantly copy the code. 
 5. Replace the placeholder metadata and text with the actual information for your posting. 
