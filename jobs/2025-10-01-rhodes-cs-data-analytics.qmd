@@ -1,0 +1,11 @@
+---
+institution: Rhodes College
+location: Memphis, TN, USA
+deadline: 2025-10-01
+active: true
+type: Tenure Track
+url: https://rhodes.wd5.myworkdayjobs.com/en-US/Rhodes_Careers/details/Assistant-Professor-of-Computer-Science_JR-731
+---
+The Department of Computer Science and the Data Analytics Program at Rhodes College invite applications for a tenure-track position in Computer Science and/or Data Analytics, to begin in August 2026. We welcome applications from all specializations with preference given to individuals whose research interests complement those of the existing faculty. We are interested in candidates with a primary background in either computer science or data analytics who are also prepared to teach in the other area. We recognize that few candidates will have expertise across the entirety of both fields; successful applicants will contribute to a subset of courses in each area aligned with their training and interests. The successful candidate will be expected to maintain an active research program, teach a 3-2 load and will be eligible for a pre-tenure sabbatical. We also seek candidates who are passionate about encouraging underrepresented groups to pursue computer science and data analytics as well as contributing to our culture of inclusivity. Applicants must hold a Ph.D. in computer science, data analytics/science, or a closely related discipline by August 2026.
+<br> <br>
+🗓️ Review of completed applications will begin ***October 1, 2025*** and will continue until the position is filled. Letters of recommendation will only be solicited for short-listed applicants, at which time you will be prompted for the names and contact information for three (3) references. Background checks are required before candidates can be brought to campus for interviews.
