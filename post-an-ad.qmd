@@ -80,13 +80,13 @@ To post on GitHub, follow the steps below. The accompanying images illustrate se
 
 1. Navigate to the `jobs` folder of the `cs-pui` repository on GitHub, [linked here](https://github.com/cs-pui/prototype/tree/main/jobs).
 2. Click the "Add file" button and select "Create new file". 
-3. Name your file with the following format: `YYYY-Institution-Name-Optional-Detail.qmd` (e.g. `2025-My-College-Theory.qmd`), filling in the name of your institution as well as the year, month, and day of the closing of the position. "Optional details" most often means a specialty area sought, but other uses are ok. Note that the file extension must be `.qmd` (for Quarto Markdown), **not** the more-familiar `.md` extension for markdown documents. 
-4. Copy and paste the Example Post Template into your new file.
+3. Fork the project, as described.
+4. Name your file with the following format: `YYYY-Institution-Name-Optional-Detail.qmd` (e.g. `2025-My-College-Theory.qmd`), filling in the name of your institution as well as the year, month, and day of the closing of the position. "Optional details" most often means a specialty area sought, but other uses are ok. Note that the file extension must be `.qmd` (for Quarto Markdown), **not** the more-familiar `.md` extension for markdown documents. 
+5. Copy and paste the Example Post Template into your new file.
     - Hovering over  on the upper right of the code block will reveal a clipboard icon. You can click this icon to instantly copy the code. 
-5. Replace the placeholder metadata and text with the actual information for your posting. 
-6. Click the green "Commit changes" button at the bottom of the page.
-7. Choose to create a new branch and start a pull request. The exact name of the branch is not important. 
-8. Click the green "Propose changes" button. 
+6. Replace the placeholder metadata and text with the actual information for your posting. 
+7. Click the green "Commit changes" button, which creates a new branch in your fork of the repository.
+8. Click the button to start a pull request. 
 
 That's it! One of the site maintainers will review your pull request, make any required formatting changes, and merge it onto the site shortly. 
 
