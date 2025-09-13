@@ -1,0 +1,84 @@
+---
+institution: Bard College 
+location: Annandale-on-Hudson
+deadline: 2025-10-15
+active: true
+type: Tenure Track
+url: https://cs-pui.github.io/
+---
+
+The Bard College Computational Sciences program invites applications for two **tenure-track Assistant Professor** positions, 
+with a focus on **Data Analytics**, to begin Fall 2026. We seek candidates from diverse disciples-across the arts & humanities, 
+social sciences, or sciences-who represent the interdisciplinary application of Data Analytics in different fields. 
+The innovative and interdisciplinary Computational Sciences program offers a B.A. in computer science, leads a minor in 
+Data Analytics, and collaborated with several programs across the College including Environmental Studies, 
+Experimental Humanities, and Mind, Brain, Behavior. Successful applicants will add to the set of recent hires within 
+the expanding Computational Sciences program. Join our growing program and help shape new curricular offerings and 
+research opportunities!
+
+<BR>
+
+This role offers the unique opportunity to contribute to innovative curricular approaches for teaching data analytics 
+and introductory statistics courses across Bard College’s programs, spanning sciences, arts, humanities, and social 
+sciences. Successful candidates will be committed to innovative undergraduate teaching at a liberal arts college with 
+a diverse student body; maintaining an active research program; contributing to the general education curriculum; and 
+engaging with the live of the College.
+
+ <BR><BR>
+
+We encourage applications from candidates with formal education in data analytics methods or who are actively 
+engaged in scholarship involving advanced data analytics techniques.
+
+ <BR><BR>
+
+Responsibilities: Teaching responsibilities will consist of courses in the Data Analytics curriculum as well as 
+4-6 week short courses and 1-2 week modules designed to integrate with courses in other fields. 
+Responsibilities include: five courses (or equivalent curricular load) per academic year; senior project advising; 
+student advising; and participation in Data Analytics curriculum development activities which include development 
+of full-term courses, workshops, short courses, and a faculty data analytics training program.
+<BR><BR>
+ 
+
+Teaching responsibilities will include a subset of the following courses, depending on expertise and program needs: 
+Introduction to Data Analytics and R Programming, Introduction to Statistics, and intermediate level courses in 
+data analysis and/or data visualization, and helping to develop and teach courses on data mining, algorithmic bias, 
+data ethics, and critical data studies. Intermediate and upper level courses could include modeling and simulation, 
+data analytics for spatial analysis, geographic information systems, and/or digital humanities courses.
+<BR><BR>
+**Qualifications**<BR>
+*  The successful candidate will have the ability to teach quantitative reasoning, statistical concepts, and programming in 
+R using Tidyverse workflows.  
+
+*  Candidates should be excited about interdisciplinary connections and interested in contributing 
+to existing interdisciplinary activities on campus and helping to establish new ones.
+
+*  Candidates should have experience with or interest in pursuing active learning and project-based learning pedagogies
+
+*  Strong communication, organization, and team collaboration skills
+
+*  Ability to contribute in meaningful ways to the college’s continuing commitment to diversity and inclusive pedagogy
+
+*  Formal education in data analytics methods, or active engagement in scholarship involving advanced data analytics techniques
+
+*  A PhD in a relevant discipline by start date
+
+*  The ability to teach some of Python, SQL, Geographic Information Systems, remote sensing and web-based geotechnologies, and other types of data models is desired but not required
+ 
+<BR><BR>
+Note that no AI tools will be used in any aspect of applicant evaluation.
+
+**Application Instructions**<BR>
+Full position information and application link are at [https://apply.interfolio.com/173494](https://apply.interfolio.com/173494).  
+To apply, submit a cover letter, curriculum vitae, and teaching and research statements. The research statement must 
+include discussion of ways in which you would incorporate undergraduates into your research activities. All statements 
+should include discussion of working with a diverse student population. Please provide three letters of recommendation 
+(at least one addressing teaching) through Interfolio.
+<BR><BR>
+Completed applications received by October 15, 2025, will receive full consideration, and review of applications will 
+continue until the position is filled.
+<BR><BR>
+ 
+
+For more information on the Computational Science Program at Bard, visit http://cs.bard.edu, or contact Valerie Barr at vbarr@bard.edu.
+
+ 
