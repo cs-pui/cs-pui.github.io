@@ -4,7 +4,7 @@ location: Annandale-on-Hudson
 deadline: 2025-10-15
 active: true
 type: Tenure Track
-url: https://cs-pui.github.io/
+url: https://apply.interfolio.com/173494
 ---
 
 The Bard College Computational Sciences program invites applications for two **tenure-track Assistant Professor** positions, 
