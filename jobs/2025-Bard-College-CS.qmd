@@ -4,7 +4,7 @@ location: Annandale-on-Hudson, New York
 deadline: 2025-10-15
 active: true
 type: Tenure Track
-url: https://cs-put.github.io
+url: https://apply.interfolio.com/173483
 ---
 
 The Bard College Computational Sciences program invites applications for an open rank Computer Science faculty position, 
