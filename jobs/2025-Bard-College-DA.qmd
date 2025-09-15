@@ -1,5 +1,5 @@
 ---
-institution: Bard College 
+institution: Bard College -- Data Analytics
 location: Annandale-on-Hudson
 deadline: 2025-10-15
 active: true
