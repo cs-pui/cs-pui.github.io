@@ -85,6 +85,7 @@ To post on GitHub, follow the steps below. The accompanying images illustrate se
 5. Copy and paste the Example Post Template into your new file.
     - Hovering over  on the upper right of the code block will reveal a clipboard icon. You can click this icon to instantly copy the code. 
 6. Replace the placeholder metadata and text with the actual information for your posting. 
+    - It is especially important to replace `https://cs-pui.github.io/` in the `url` field with the link to your full job ad! 
 7. Click the green "Commit changes" button, which creates a new branch in your fork of the repository.
 8. Click the button to start a pull request. 
 
