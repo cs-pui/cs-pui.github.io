@@ -4,42 +4,23 @@ location: Annandale-on-Hudson, New York
 deadline: 2025-10-15
 active: true
 type: Tenure Track
-url: https://cs-put.github.io
+url: https://apply.interfolio.com/173483
 ---
 
-The Bard College Computational Sciences program invites applications for an open rank Computer Science faculty position, 
-to begin Fall 2026. A Ph.D. in computer science or a related field is required. The innovative and interdisciplinary Computational 
-Sciences program offers a B.A. in computer science, leads a minor in Data Analytics, and collaborated with several programs across the college 
-including Environmental Studies, Experimental Humanities, and Mind, Brain, Behavior. Successful applicants will add to the set of recent hires 
-within the expanding Computational Sciences program. Join our growing program and help shape new curricular offerings and research opportunities!
-<BR>
- 
-Successful candidates will be committed to innovative undergraduate teaching at a liberal arts college with a diverse student body; 
-maintaining an active research program; contributing to the general education curriculum; and engaging with the life of the College. 
-Responsibilities include five courses (or equivalent curricular load) per academic year, senior project advising, and student advising.
-<BR>
-**Qualifications**
-We seek candidates who can contribute to the teaching and ongoing curricular development in our Computer Sciences major. 
+The Bard College Computational Sciences program invites applications for an **open rank** Computer Science faculty position, 
+to begin Fall 2026. We seek candidates who can contribute to the teaching and ongoing curricular development in our Computer Sciences major. 
 The current faculty specializations are in computational biology, computer science education, artificial intelligence, natural language, 
 spoken human/computer interfaces, human-robot interaction, data science, and algebraic and symbolic computation. 
 While all fields will be considered, we particularly encourage applications from candidates who work in systems, graphics, cybersecurity, 
-and networks. Candidates should also be excited about interdisciplinary connections and interested in contributing to existing interdisciplinary 
-activities on campus and helping to establish new ones.
-<BR>
-Please note that no AI tools will be used in any aspect of applicant evaluation.
-<BR>
-**Application Instructions**
-Full position information and application link are at [https://apply.interfolio.com/173483](https://apply.interfolio.com/173483).  To apply, submit a cover letter, curriculum vitae, and teaching 
-and research statements. The research statement must include discussion of ways in 
-which you would incorporate undergraduates into your research activities. All statements should include discussion of working with a diverse student 
-population. Please provide three letters of recommendation (at least one addressing teaching) through Interfolio.
-<BR>
+and networks. The innovative and interdisciplinary Computational 
+Sciences program offers a B.A. in computer science, leads a minor in Data Analytics, and collaborated with several programs across the college 
+including Environmental Studies, Experimental Humanities, and Mind, Brain, Behavior. Successful applicants will add to the set of recent hires 
+within the expanding Computational Sciences program. Join our growing program and help shape new curricular offerings and research opportunities!
+<BR><BR>
 
-Completed applications received by October 15, 2025, will receive full consideration, and review of applications will continue until the position is filled.
+Completed applications received by ***October 15, 2025*** will receive full consideration, and review of applications will continue until the position is filled.
 <BR>
  
-
-For more information on the Computational Science Program at Bard, visit http://cs.bard.edu, or contact Valerie Barr at vbarr@bard.edu.
 
  
 
