@@ -1,0 +1,19 @@
+---
+institution: Reed College -- Systems 
+location: Portland, Oregan 
+deadline: 2025-10-17
+active: true
+type: Tenure Track
+url: https://apply.interfolio.com/172757
+---
+
+he Department of Computer Science at Reed College invites applications for an open rank tenure stream faculty position in computer systems beginning in the fall of 2026. 
+Applicants should have a Ph.D. in computer science or a closely related field by the time of the appointment and should be committed to excellence in undergraduate teaching and in research. 
+Applicants from any area of computer systems and applications, broadly construed, will be considered (e.g., networks, database systems, security, distributed computing, architecture, operating systems, robotics, etc.). 
+The successful applicant will teach in the core computer science curriculum at all levels, will develop one or more courses in the applicant’s area(s) of expertise, and will work to foster a welcoming and engaged community. 
+They will maintain an active research program, providing opportunities for student involvement, and they will advise several year-long senior thesis projects.
+<BR><BR>
+
+Completed applications received by ***October 17, 2025*** will receive full consideration, and review of applications will continue until the position is filled.
+<BR>
+ 
