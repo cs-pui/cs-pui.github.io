@@ -1,6 +1,6 @@
 ---
 institution: Reed College -- Systems 
-location: Portland, Oregan 
+location: Portland, Oregon 
 deadline: 2025-10-17
 active: true
 type: Tenure Track
