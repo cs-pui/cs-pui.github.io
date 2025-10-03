@@ -1,7 +1,7 @@
 ---
 institution: Ohio Wesleyan University
 location: Delaware, Ohio, USA
-deadline: 2024-10-20
+deadline: 2025-10-20
 active: true
 type: Tenure Track
 url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a2082ac8-6363-4a1c-92d0-adacd9e4f844&ccId=19000101_000001&jobId=537958
