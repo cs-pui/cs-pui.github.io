@@ -1,0 +1,21 @@
+---
+institution: Whitman College
+location: Walla Walla, Washington, United States
+deadline: 2025-10-17
+active: true
+type: Tenure Track
+url: https://apply.interfolio.com/173527
+---
+
+The department of Computer Science at Whitman College invites applicants to join our community of faculty 
+and student scholars who engage with computing in the classroom, in academic research, and in interdisciplinary collaborations. 
+The department strives to foster a welcoming learning community, with an emphasis on active learning and 
+collaborative problem solving, for students who reflect the full diversity of Whitman’s student body.
+Our faculty and students engage in diverse forms of scholarship, including collaborations in artistic 
+production and scientific applications, community-based research and learning with local schools and 
+indigenous populations, and pedagogical research, in addition to traditional conference and journal publications. 
+In addition to traditional areas of computing research, we welcome candidates working in interdisciplinary, 
+emerging, and socially engaged areas. 
+<br> <br>
+🗓️ Review of applications begins ***October 17th, 2025*** and will continue 
+until the position is filled. 
