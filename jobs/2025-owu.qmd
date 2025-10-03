@@ -1,0 +1,14 @@
+---
+institution: Ohio Wesleyan University
+location: Delaware, Ohio, USA
+deadline: 2024-10-20
+active: true
+type: Tenure Track
+url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a2082ac8-6363-4a1c-92d0-adacd9e4f844&ccId=19000101_000001&jobId=537958
+---
+The Department of Mathematics and Computer Science at Ohio Wesleyan University invites applications for a tenure-track position in Computer Science beginning August 2026. We seek an outstanding teacher-scholar committed to engaging undergraduates in both the classroom and the laboratory. We seek candidates who can teach generally across the breadth of Computer Sciences, but are especially interested in candidates who can also develop and teach courses in applied areas such as software development, machine learning, or similar subjects. The successful candidate will establish a dynamic research program that welcomes students at all levels of preparation, fostering student success.
+<br> <br>
+🗓️ Review of applications begins ***October 20th, 2024*** and will continue 
+until the position is filled.
+
+
