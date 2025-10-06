@@ -1,0 +1,23 @@
+---
+institution: The Cooper Union
+location: New York City, NY, USA
+deadline: 2025-12-20
+active: true
+type: Tenure Track
+url: https://cooper.edu/work/employment-opportunities/albert-nerken-school-engineering-computer-science-tenure-track-0 
+---
+
+The Department of Computer Science in the Albert Nerken School of Engineering at The Cooper Union 
+for the Advancement of Science and Art seeks outstanding candidates for a tenure-track faculty position 
+in computer science. The school is consistently ranked among the top ten undergraduate engineering institutions 
+in the nation and is focused on providing an exceptional engineering education through an intimate experience characterized 
+by small class sizes and a student-faculty ratio of 7:1. We value interdisciplinary approaches and the intersection of art, architecture, humanities
+and engineering. Our students and faculty collaborate across disciplinary boundaries to create innovative solutions to societal challenges. 
+The successful candidate will be dedicated to teaching and mentoring undergraduate students in a rigorous project-oriented and 
+supportive academic environment and engaging undergraduate and master's students in research and scholarly activities. 
+The ideal candidate should contribute to Cooper Union’s strategic priority of educational innovation and leading-edge pedagogies. 
+The candidate is expected to collaborate with faculty and staff to develop innovative curricular models, modern pedagogical paradigms, and 
+evidence-based assessment techniques.
+<br> <br>
+🗓️ Review of applications begins ***December 20th, 2025*** and will continue 
+until the position is filled. 
