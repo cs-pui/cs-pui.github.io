@@ -1,0 +1,18 @@
+---
+institution: Western Washington University
+location: Bellingham, WA, United States  
+deadline: 2025-12-01 
+active: true
+type: Tenure Track
+url: https://hr.wwu.edu/careers-faculty?job=502717
+---
+
+The Department and the College of Science and Engineering at WWU invites applications for a tenure track position that
+involves developing and teaching lab-based electrical and computer engineering courses, 
+conducting research, advising students, engaging with the community, and service to support 
+the electrical and computer engineering department and the university. 
+This position offers a unique and exciting opportunity to be part of the growth of the department, 
+including the development of new curricula, research areas, and laboratory facilities. 
+<br> <br>
+🗓️ Review of applications begins ***December 1st, 2025*** and will continue 
+until the position is filled. 
