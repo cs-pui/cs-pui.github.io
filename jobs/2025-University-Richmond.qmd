@@ -1,0 +1,14 @@
+---
+institution: University of Richmond 
+location: Richmond, VA
+deadline: 2025-10-17
+active: true
+type: Tenure Track
+url: https://richmond.wd5.myworkdayjobs.com/en-US/staff_faculty/details/Assistant-Professor-of-Computer-Science_JR100666-1?jobFamilyGroup=8b62366a3a92100144f20520256d0000
+---
+
+The University of Richmond Department of Computer Science invites applications for a full-time tenure-track position at the rank of Assistant Professor to begin in the 2026-2027 academic year.
+
+We welcome applicants from all fields within computer science. A completed Ph.D. in computer science is required for this position by the time of appointment. The successful applicant is expected to commit to highly effective teaching at all levels of the curriculum and to maintain a productive research program that engages undergraduates in meaningful research outcomes. We seek a colleague committed to fostering an inclusive environment that makes computer science accessible to all students.
+<br> <br>
+🗓️ Review of applications will commence on ***October 17*** and continue until the position is filled.
