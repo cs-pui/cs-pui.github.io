@@ -1,0 +1,13 @@
+---
+institution: Allegheny College 
+location: Meadville, PA
+deadline: 2025-11-15
+active: true
+type: Tenure Track
+url: https://sites.allegheny.edu/human-resources/job_post/assistant-professor-of-computer-and-information-science/
+---
+
+Allegheny College invites applications for a full-time, tenure-track position in Computer and Information Science, beginning in August 2026. Ideal candidates will have a Ph.D. or other terminal degree (e.g., MFA, MEng, or MBA) in information technologies, with demonstrated core competencies in computer and information science, successful teaching experience in computational courses, and an active research agenda.
+...Allegheny faculty teach six courses per year, or the equivalent (with a one-course reduction in the first year). In the Department of Computer and Information Science, this corresponds to a teaching load of four laboratory courses per academic year. Start-up funding, access to laboratory space, and strong institutional support for undergraduate research will be provided.
+<br> <br>
+🗓️ Review of applications will begin on ***November 15, 2025***, and continue until the position is filled.
