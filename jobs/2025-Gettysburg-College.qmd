@@ -1,0 +1,13 @@
+---
+institution: Gettysburg College 
+location: Gettysburg, PA
+deadline: 2025-12-31
+active: true
+type: Tenure Track
+url: https://gettysburg.peopleadmin.com/postings/6007
+---
+
+The Department of Computer Science at Gettysburg College invites applications for a tenure-track Assistant Professor in Computer Science beginning August 2026. We are interested in applicants from all areas of computing, with a particular emphasis on applicants whose research and teaching interests are in cloud computing, computer security, software engineering, or embedded systems. 
+...The standard teaching load is the equivalent of five courses per academic year with two or three course sections per semester.
+<br> <br>
+🗓️ Applications and letters of recommendation received by ***December 31, 2025*** will be given full consideration.
