@@ -1,0 +1,12 @@
+---
+institution: Randolph Macon College
+location: Ashland, VA
+deadline: 2025-10-20
+active: true
+type: Tenure Track
+url: https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&type=JS&lang=en_US&jobId=552789
+---
+
+Randolph-Macon College invites applications for a full-time, tenure-track position of Assistant Professor in the Department of Computer Science to begin September 1, 2026.  All areas of specialization will be considered, but we are especially interested in applicants with experience or specialization in an area of security or software engineering.
+<br> <br>
+🗓️ Review of applications will begin ***October 20, 2025*** and continue until the position is filled.
