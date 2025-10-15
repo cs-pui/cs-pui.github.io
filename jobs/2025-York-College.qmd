@@ -1,0 +1,14 @@
+---
+institution: York College 
+location: York, PA
+deadline: 2025-10-15
+active: true
+type: Tenure Track
+url: https://www.governmentjobs.com/careers/ycp/jobs/5004684/assistant-professor-of-computer-science/apply/jobdetails
+---
+
+The Computer Science program at York College of Pennsylvania invites applications for a Tenure Track Assistant Professor of Computer Science beginning in January 2026 or August 2026. The successful candidate will teach a variety of undergraduate computer science courses, including introductory programming, software engineering, programming language design, data structures and algorithms, networking and cybersecurity, computer architecture, operating systems, etc. primarily to computer science and electrical/computer engineering majors.
+...The successful candidate will be active in curriculum and laboratory development and scholarly research.
+...Candidates with at least one year of prior teaching experience, interest in pedagogical research, machine learning, or artificial intelligence as demonstrated by published work or conference presentation and industry experience are preferred.  
+<br> <br>
+🗓️ While applications will be accepted until the position is filled, for full consideration, applications should be received by ***October 15, 2025***. 
