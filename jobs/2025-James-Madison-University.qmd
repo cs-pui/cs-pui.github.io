@@ -1,0 +1,13 @@
+---
+institution: James Madison University
+location: Harrisonburg, VA
+deadline: 2025-11-17
+active: true
+type: Tenure Track
+url: https://jobs.jmu.edu/jobs/tenure-track-assistant-associate-professor-department-of-computer-science-harrisonburg-virginia-united-states
+---
+
+The Department of Computer Science at James Madison University invites applications for a tenure-track faculty position at the rank of Assistant Professor or Associate Professor to begin August 2026. We are committed to cultivating a welcoming environment for our faculty, staff, and students, and we value candidates who will be both impactful teachers and impactful scholars. 
+...Applicants from all areas of specialization are encouraged to apply. We especially welcome candidates with a background in Systems, Software Engineering, Theoretical Computer Science, AI, or Cyber Security. Candidates should demonstrate ability and interest in providing high-quality undergraduate teaching in the context of a liberal arts university.
+<br> <br>
+🗓️ Review of candidates will begin on ***November 17, 2025***.
