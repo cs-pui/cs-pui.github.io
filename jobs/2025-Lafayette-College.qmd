@@ -1,0 +1,13 @@
+---
+institution: Lafayette College 
+location: Easton, PA
+deadline: 2025-09-29
+active: true
+type: Tenure Track
+url: https://provost.lafayette.edu/2026-27-data-science_cs-dept/
+---
+
+The Lafayette College Data Science Program and Computer Science Department invite applications for a joint full-time, tenure-track position at the rank of Assistant Professor commencing July 2026. Candidates from all data science related research areas, including interdisciplinary ones, are encouraged to apply.
+...Faculty members teach the equivalent of four courses in their first year and five courses (3:2) per year thereafter.  For this position, the typical 5 course load will be split with 3 being in data science and 2 in computer science. The college, the program, and the department are very supportive of research.  
+<br> <br>
+🗓️ Review of applications will begin on ***September 29, 2025***.  However, applications will be accepted until the position is filled. 
