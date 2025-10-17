@@ -7,15 +7,8 @@ type: Tenure Track
 url: https://apply.interfolio.com/172754
 ---
 The Department of [Computer Science at Washington and Lee University](https://cs.wlu.edu) invites applications for *three* tenure-track positions for Assistant Professor of Computer Science beginning July 1, 2026. We seek candidates who demonstrate potential to be excellent teacher/scholars, are dedicated to effective teaching, and can mentor and collaborate with undergraduates.  The Department consists of 7 faculty members (including the advertised positions), and offers a collegial working environment, an excellent student body, and opportunities for professional development.
-
-Please submit the following in PDF format via [Interfolio](https://apply.interfolio.com/172754):
-
-  * a cover letter, noting courses you’re excited to teach and potential additions to our curriculum
-  * CV
-  * teaching statement
-  * research statement
-  * three confidential reference letters.
-
+<br><br>
+Please submit the following in PDF format via [Interfolio](https://apply.interfolio.com/172754): a cover letter, noting courses you’re excited to teach and potential additions to our curriculum, a CV, a teaching statement, a research statement, and three confidential reference letters.
 <br> <br>
 🗓️ Review of applications begins ***October 3, 2025*** and will continue 
 until the position is filled. 
