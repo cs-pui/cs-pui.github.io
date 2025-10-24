@@ -1,0 +1,22 @@
+<% items.sort(function(a,b){return new Date(a.deadline) - new Date(b.deadline)}) %>
+
+<table class="styled-table">
+    <tr>
+      <th>Institution</th>
+      <th>Job Type</th>
+      <th>Location</th>
+      <th>Date Posted</th>
+    </tr>
+    <% for (const item of items) { %>
+      <% if (item.review && item.review.toLowerCase() === 'rolling' && item.active) { %>
+        <% var itemDate = new Date(item.deadline) %>
+        <% itemDate.setHours(25) %>
+    <tr>
+        <td><a href="#sec-<%- item.institution %>-<%- item.type %>-<%- item.deadline %>"><%= item.institution %></a></td>
+        <td><%= item.type %></td>
+        <td><%= item.location %></td>
+        <td><%= item.deadline %></td>
+    </tr>
+    <% } %>
+    <% } %>
+</table>

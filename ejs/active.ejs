@@ -12,7 +12,7 @@
     <% for (const item of items) { %>
       <% var itemDate = new Date(item.deadline) %>
       <% itemDate.setHours(25) %>
-      <% if (itemDate >= cutoffDate & item.active) { %>
+      <% if (itemDate >= cutoffDate & item.active && item.review != "rolling") { %>
     <tr>
       <td><a href="#sec-<%- item.institution %>-<%- item.type %>-<%- item.deadline %>"><%= item.institution %></a></td>
       <td><%= item.type %></td>

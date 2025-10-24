@@ -11,11 +11,17 @@ listing:
       - "jobs/*.qmd"
     template: ejs/due-date-past.ejs
     max-description-length: 20000
+  - id: rolling
+    contents: 
+      - "jobs/*.qmd"
+    template: ejs/rolling.ejs
+    max-description-length: 20000
   - id: active-description
     contents: 
       - "jobs/*.qmd" 
     template: ejs/active-description.ejs
     max-description-length: 20000
+
 ---
 
 ![](assets/img/cs-pui-listing.jpg)
@@ -56,12 +62,21 @@ The following searches are currently active and are definitely accepting applica
 :::{#active}
 :::  
 
+### Rolling Review
+
+The following searches have been posted without a formal deadline. Applications are being reviewed on a rolling basis. 
+
+:::{#rolling}
+:::
+
 ### Due Date Past    
 
 The following searches have deadlines which are nominally past. However, **deadlines are treated very differently between institutions**. Read carefully. For example, we _strongly_ encourage you to email search chairs if you're interested in positions that appear to have passed - they might still be open! 
 
 :::{#due-date-past}
 :::
+
+
                     
 # Position Descriptions 
      
