@@ -189,6 +189,7 @@ gtag('config', 'G-VGC31NCJ07', { 'anonymize_ip': true});
   <li><a href="#formatting-requirements" id="toc-formatting-requirements" class="nav-link" data-scroll-target="#formatting-requirements">Formatting Requirements</a></li>
   </ul></li>
   <li><a href="#close" id="toc-close" class="nav-link" data-scroll-target="#close">Closing Your Ad</a></li>
+  <li><a href="#rolling-review-postings" id="toc-rolling-review-postings" class="nav-link" data-scroll-target="#rolling-review-postings">Rolling-Review Postings</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -316,6 +317,33 @@ gtag('config', 'G-VGC31NCJ07', { 'anonymize_ip': true});
 <li>On Github, please navigate to the <code>*.qmd</code> file for your job posting. Change the <code>active</code> field from <code>true</code> to <code>false</code>. Please again commit your changes to a new branch. We’ll merge in your changes to close the job.</li>
 <li>You can also email Phil Chodrow (<code>pchodrow@middlebury.edu</code>) with a request to close your ad. Make sure to clearly identify which ad is yours, especially if your institution has made multiple postings this job season.</li>
 </ol>
+</section>
+<section id="rolling-review-postings" class="level2">
+<h2 class="anchored" data-anchor-id="rolling-review-postings">Rolling-Review Postings</h2>
+<p>You can also post an add for a rolling review (i.e.&nbsp;one that has no formal deadline by which time applications must be received). To specify that your posting is for a rolling review, please instead place the <strong><em>date on which you are posting the job</em></strong> in the <code>deadline</code> field and add a separate <code>review</code> field with value <code>rolling</code>. For example:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">institution</span><span class="kw">:</span><span class="at"> Rolling University</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">location</span><span class="kw">:</span><span class="at"> Rolling Hills, USA</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">active</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">type</span><span class="kw">:</span><span class="at"> Tenure Track</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">url</span><span class="kw">:</span><span class="at"> https://rolling.edu/jobs/12345</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="fu">deadline</span><span class="kw">:</span><span class="at"> 10/24/2025</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">review</span><span class="kw">:</span><span class="at"> rolling</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="at">St. agur blue cheese edam **mascarpone**. Port-salut stinking bishop when the </span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="at">cheese comes out everybody's happy cut the cheese cheddar paneer cheddar feta. </span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="at">Queso blue castello queso gouda smelly cheese chalk and cheese cottage cheese </span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="at">cheese on toast. Cheese slices pepper jack cheese on toast cheese and biscuits.</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="ot">**Mascarpone**</span><span class="at"> blue castello *cheeseburger*. St. agur blue cheese st. agur blue </span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="at">cheese cheeseburger bavarian bergkase cheesy feet squirty cheese who moved my </span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="at">cheese jarlsberg. Cheese and biscuits danish fontina pepper jack blue castello </span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="at">camembert de normandie emmental airedale airedale. Who moved my cheese st. agur </span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a><span class="at">blue cheese. </span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co">...</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;br&gt;&lt;br&gt;</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="co">🗓️ Review of applications is ***rolling*** and will continue</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="co">until the position is filled.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>
