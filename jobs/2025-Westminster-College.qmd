@@ -1,0 +1,18 @@
+---
+institution: Westminster College
+location: New Wilmington, PA
+deadline: 2025-12-01
+active: true
+type: Tenure Track
+url: https://www.westminster.edu/about/community/employment.cfm 
+---
+
+The Westminster College Department of Mathematics and Computer Science invites applications for a
+tenure-track position as Assistant Professor of Computer Science to begin August 2026.
+We seek a dynamic and innovative teacher-scholar who is committed to excellence in undergraduate
+education and student-centered learning. All areas of computer science will be considered, though
+preference may be given to candidates with expertise in data science, artificial intelligence, or information
+security.  
+<br><br>
+🗓️ Complete applications received by **December 1, 2025** will receive full
+consideration, but applications will be accepted after this date until the position is filled. 
