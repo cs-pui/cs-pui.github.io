@@ -1,0 +1,14 @@
+---
+institution: Cal Poly
+location: San Luis Obispo, CA, USA
+deadline: 2025-12-10
+active: true
+type: Tenure Track
+url: https://jobs.calpoly.edu/en-us/job/552264/assistant-professor-data-science-in-computer-science-and-software-engineering-ay-2627
+---
+
+The Computer Science and Software Engineering Department in the College of Engineering at California Polytechnic State University in San Luis Obispo, California (Cal Poly) is excited to invite applications for a full-time, academic year, tenure-track faculty position in Data Science at the Assistant Professor rank beginning Fall 2026.
+<br><br>
+Preference will be given to candidates able to teach courses in areas of need. Areas of need include data science, artificial intelligence, machine learning, databases, data visualization, data ethics, data engineering, data mining, and big data.
+<br> <br>
+🗓️ For full consideration, candidates are encouraged to apply by the Review Begin Date, December 10, 2025. Applications received after this date may be considered.
