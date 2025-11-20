@@ -1,0 +1,17 @@
+---
+institution: Hunter College
+location: New York City, New York  
+deadline: 2025-11-30
+active: true
+type: Tenure Track
+url: https://cuny.jobs/new-york-ny/assistant-professor-cyber-security-computer-science-multiple-positions/CBC590A7B9E045588727B4429996ED05/job/
+---
+
+The Department of Computer Science (https://www.hunter.cuny.edu/artsci/computer-science/) of Hunter College of The City University of New York invites 
+applications for two tenure-track positions at the Assistant Professor rank, to begin in August of 2026. Though the Department is primarily seeking applicants 
+with an independent research record in an area of cyber security, research expertise in all areas of computer science will be considered. Similarly, although applications 
+at the Assistant Professor rank are strongly encouraged, applications seeking appointment at a rank above Assistant Professor will be considered. Priority will be given to 
+cyber security applicants with a successful track record within systems (including high performance computing, parallel computation, etc.), computer networking, network security, 
+software security, secure operating systems, quantum computing, and secure software engineering.
+<br><br>
+🗓️ Completed applications received by ***November 30th, 2025*** will receive full consideration, and review of applications will continue until the position is filled.
