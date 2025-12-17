@@ -1,0 +1,13 @@
+---
+institution: Eastern Michigan University
+location: Ypsilanti, Michigan
+deadline: 2025-12-01
+active: true
+type: Tenure Track
+url: https://careers.emich.edu/jobs/assistant-professor-ypsilanti-michigan-united-states-f9e97fe0-12a2-4844-becf-8f5c6441fccc 
+---
+
+Eastern Michigan University’s Department of Computer Science seeks applicants for a tenure-track assistant professor position to begin Fall 2026. Candidates should have completed a PhD in Computer Science or a related field by the time of their appointment. A strong aptitude and desire for teaching and a plan to conduct scholarly research is required.
+<br><br>
+🗓️ Completed applications received by ***December 1st, 2025*** will receive full consideration, and review of applications will 
+continue until the position is filled.
