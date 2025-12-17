@@ -16,7 +16,14 @@ This page is an archive of job postings which are no longer active. [Ads are con
 
 ::: {.notice .notice-blue}
 
-This archive only goes back as far as our recent migration to a new website publishing system in advance of the 2024-2025 hiring season. If you are interested in older job postings, please check out [the previous version of our website](URL HERE).
+This archive only goes back as far as our recent migration to a new website publishing system in advance of the 2025-2026 hiring season. If you are interested in older job postings, please check out previous versions of our site: 
+
+[2023-2024](https://cs-pui.github.io/cs-pui.github.io-archive/index-23)
+[2022-2023](https://cs-pui.github.io/cs-pui.github.io-archive/index-22)
+[2021-2022](https://cs-pui.github.io/cs-pui.github.io-archive/index-21)
+[2020-2021](https://cs-pui.github.io/cs-pui.github.io-archive/index-20) - The first year of `cs-pui.github.io`!
+[2019-2020](https://evanmpeck.medium.com/cs-academic-job-market-for-liberal-arts-colleges-19-20-cd348423f919) - job ads were kept track of in a blog post
+[2018-2019](https://mobile.twitter.com/EvanMPeck/status/1040402908657934336) -  job ads were kept track in a running Twitter thread this year
 
 :::
 
