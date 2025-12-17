@@ -17,7 +17,7 @@ This page is an archive of job postings which are no longer active. [Ads are con
 ::: {.notice .notice-blue}
 
 This archive only goes back as far as our recent migration to a new website publishing system in advance of the 2025-2026 hiring season. If you are interested in older job postings, please check out previous versions of our site: 
-
+- [2024-2025] (https://cs-pui.github.io/cs-pui.github.io-archive/index-24)
 - [2023-2024](https://cs-pui.github.io/cs-pui.github.io-archive/index-23)
 - [2022-2023](https://cs-pui.github.io/cs-pui.github.io-archive/index-22)
 - [2021-2022](https://cs-pui.github.io/cs-pui.github.io-archive/index-21)
