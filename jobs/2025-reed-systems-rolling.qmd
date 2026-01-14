@@ -1,0 +1,15 @@
+---
+institution: Reed College -- Systems
+location: Portland, Oregon 
+active: true
+type: Tenure Track
+url: https://apply.interfolio.com/179610
+deadline: 1/13/2026
+review: rolling
+---
+
+The Department of Computer Science at Reed College invites applications for an open rank tenure stream faculty position in computer systems beginning in the fall of 2026. Applicants should have a Ph.D. in computer science or a closely related field by the time of the appointment and should be committed to excellence in undergraduate teaching and in research. Applicants from any area of computer systems and applications, broadly construed, will be considered (e.g., networks, database systems, security, distributed computing, architecture, operating systems, robotics, etc.). The successful applicant will teach in the core computer science curriculum at all levels, will develop one or more courses in the applicant’s area(s) of expertise, and will work to foster a welcoming and engaged community. They will maintain an active research program, providing opportunities for student involvement, and they will advise several year-long senior thesis projects.
+<br>
+Reed College is a vibrant intellectual community located in Portland, Oregon. Reed students are known for their outstanding intellectual engagement and creativity, and a substantial proportion go on to pursue advanced degrees. Reed believes that this requires a faculty that is actively engaged in cutting-edge research and provides the resources necessary to enable that research, including a generous sabbatical policy, startup and other funding, and salary that is competitive with other institutions that expect and support high-quality research. The college believes that cultural diversity and inclusive education practices are essential to the excellence of our academic program (see https://www.reed.edu/diversity/). Applicants to the position are encouraged to contact Adam Groce (agroce@reed.edu), the chair of the search committee, for further details about the position and the college's computer science program. Information about the position is also posted at https://www.reed.edu/dean_of_faculty/facsearch/positions/tenure-stream-faculty-position-in-computer-systems.html. 
+<br><br>
+🗓️ Applications will be accepted until the position is filled, but they should be received by Wednesday, January 31, 2026 to guarantee full consideration.
