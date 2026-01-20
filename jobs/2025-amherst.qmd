@@ -2,7 +2,7 @@
 institution: Amherst College
 location: Amherst, MA. USA
 deadline: 2025-10-07
-active: true
+active: false
 type: Tenure Track
 url: https://www.amherst.edu/academiclife/departments/computer_science/csjob20
 ---
