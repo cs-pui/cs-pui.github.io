@@ -2,7 +2,7 @@
 institution: College of the Holy Cross
 location: Worcester, MA. USA
 deadline: 2025-10-07
-active: true
+active: false
 type: Tenure Track
 url: https://apply.interfolio.com/171639
 ---
