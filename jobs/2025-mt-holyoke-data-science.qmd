@@ -2,7 +2,7 @@
 institution: Mount Holyoke College -- Data Science
 location: South Hadley, MA. USA
 deadline: 2025-09-25
-active: true
+active: false
 type: Tenure Track
 url: https://mtholyoke.wd5.myworkdayjobs.com/en-US/External/job/Assistant-Professor-of-Data-Science_R-0000002492
 ---
