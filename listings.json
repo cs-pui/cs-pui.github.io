@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
       "/jobs/2025-Allegheny-College.html",
       "/jobs/2025-Bard-College-CS.html",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
       "/jobs/2025-Allegheny-College.html",
       "/jobs/2025-Bard-College-CS.html",
