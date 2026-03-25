@@ -2,7 +2,7 @@
 institution: Whitman College
 location: Walla Walla, Washington, United States
 deadline: 2025-10-17
-active: true
+active: false
 type: Tenure Track
 url: https://apply.interfolio.com/173527
 ---
