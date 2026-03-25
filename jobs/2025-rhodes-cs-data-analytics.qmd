@@ -2,7 +2,7 @@
 institution: Rhodes College
 location: Memphis, TN, USA
 deadline: 2025-10-01
-active: true
+active: false
 type: Tenure Track
 url: https://rhodes.wd5.myworkdayjobs.com/en-US/Rhodes_Careers/details/Assistant-Professor-of-Computer-Science_JR-731
 ---
