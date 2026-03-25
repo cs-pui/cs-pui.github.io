@@ -2,7 +2,7 @@
 institution: Harvey Mudd College
 location: Claremont, California
 deadline: 2025-10-10
-active: true
+active: false
 type: Tenure Track
 url: https://academicjobsonline.org/ajo/jobs/30450
 ---
