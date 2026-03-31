@@ -9,10 +9,10 @@
 
 #### ❓ Who maintains this site? 
 
-This website is run by a collective of professors with experience with undergraduate institutions with CS - [Anna Ritz (Reed College)](https://www.reed.edu/biology/ritz/), [Evan Peck (CU Boulder)](https://evanpeck.github.io), [John Rieffel (Union College)](https://cs.union.edu/~rieffelj/), [Jordan Crouser (Smith College)](https://www.smith.edu/academics/faculty/jordan-crouser), [Phil Chodrow (Middlebury College)](https://www.philchodrow.prof/), and [Varsha Koushik (Colorado College)](https://www.coloradocollege.edu/basics/contact/directory/people/koushik_varsha.html).
+The current lead maintainers of `cs-pui` are [Varsha Koushik](https://www.coloradocollege.edu/basics/contact/directory/people/koushik_varsha.html) (Colorado College), [Iris Howley](https://www.cs.williams.edu/~iris/) (Williams College) and [Phil Chodrow](https://www.philchodrow.prof/) (Middlebury College). The site was started in the 2020-21 hiring season by [Evan Peck](https://evanpeck.github.io/) (University of Colorado Boulder), who had previously tracked job posts via Twitter and a blog. [Anna Ritz](https://www.reed.edu/biology/ritz/) (Reed College) was another early primary maintainer of the site. Past and current contributors also include [John Rieffel](https://cs.union.edu/~rieffelj/) (Union College) and [Jordan Crouser](https://www.smith.edu/academics/faculty/jordan-crouser) (Smith College).
 
-[Evan Peck](https://evanpeck.github.io/) was the creator and primary maintainer of the earlist version of this site.  [Anna Ritz (Associate Prof of Biology at Reed College)](https://www.reed.edu/biology/ritz/) was also an early contributor. 
- 
+We are supported by a team of volunteers who help with curation, data collection, and other tasks.
+
 ------------
 
 #### ❓ How much does it cost for departments to post? How do I post?
