@@ -1,7 +1,7 @@
 ---
 institution: Reed College -- Systems
 location: Portland, Oregon 
-active: true
+active: false
 type: Tenure Track
 url: https://apply.interfolio.com/179610
 deadline: 1/13/2026
