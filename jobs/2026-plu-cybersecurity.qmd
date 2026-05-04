@@ -1,7 +1,7 @@
 ---
 institution: Pacific Lutheran University
 location: Tacoma, WA, USA
-active: true
+active: false
 type: Tenure Track or Visitor
 url: https://employment.plu.edu/postings/8685
 deadline: 1/10/2026
