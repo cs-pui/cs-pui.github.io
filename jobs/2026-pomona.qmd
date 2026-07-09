@@ -8,9 +8,9 @@ url: https://academicjobsonline.org/ajo/jobs/32241
 ---
 
 Pomona College seeks applications for an Assistant Professor of Computer Science to begin on July 1, 2027. We seek candidates with a strong commitment to i) inclusive undergraduate teaching across all levels of our curriculum; ii) mentoring a diverse student body and fostering a supportive learning environment; iii) developing a strong, independent research program that involves undergraduates and leads to peer-reviewed publications; and iv) helping build community within our Department and the College.
-
+<br>
 We welcome applicants with broad intellectual interests from a wide range of subdisciplines, with a preference for candidates whose research and teaching interests complement those of the current faculty or who can contribute to expanding the department's curricular range and scholarly interests. The teaching commitment is four courses per year over two semesters of instruction (2-2). CS faculty are expected to teach at least two required courses among our introductory (introduction to programming and computer science, mathematical foundations, and data structures) and/or core (algorithms, languages and theory of computation, and computer systems) sequences. Candidates should have a Ph.D. in hand by their start date, usually July 1, 2027.
-
+<br>
 The salary for this position will range from $105,000 to $135,000 and will be set based on a variety of factors, including but not limited to internal equity, experience, education, specialty, and training. For further information, we can be reached via email at cssearch@pomona.edu.
 <br><br>
 🗓️ Review of applications begins ***October 4th, 2026*** and will continue 
