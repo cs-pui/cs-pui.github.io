@@ -28,7 +28,7 @@ jobs:
       
       - name: Register Google API key
         run: |
-          Rscript -e 'ggmap::register_google(key = "${{ secrets.MAPS_API_KEY }}")'
+          Rscript -e 'ggmap::register_google(key = "${{ secrets.MAPS_API_KEY }}", write = TRUE)'
       
       - name: Setup
         run: |
