@@ -56,7 +56,7 @@ library(leaflet)
 my_geocode <- function(location){
     geocodes <- read_csv("throughput/geocodes.csv")
     if (location %in% geocodes$location) {
-        return(geocodes |> filter(location == !!location) |> select(lat, lon) |> slice(1)) 
+        return(geocodes |> filter(location == !!location) |> select(lat, lon) |> slice(1) |> unlist())
     } else {
         result <- ggmap::geocode(location)
         result <- result |> mutate(location = location) |> 
@@ -94,9 +94,13 @@ df <- list.files("jobs", full.names = TRUE) |>
     bind_rows()
 
 # first pass: geocode the locations from the metadata
-df <- df |>
-  mutate(geocode = map(location, ~my_geocode(.x))) |> 
-  unnest(cols = c(geocode)) 
+test <- df |>
+  mutate(geocode = map(location, ~my_geocode(.x)))
+
+df <- test |> 
+  mutate(lat = map_dbl(geocode, "lat"),
+         lon = map_dbl(geocode, "lon")) |> 
+         select(-geocode)
 ```
 
 
