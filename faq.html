@@ -42,7 +42,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dbda9822dd3cbcae281f58ce6ff3da0d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a8ba785f36a7db21081199cc6a1ccb4a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,12 +79,27 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-VGC31NCJ07', { 'anonymize_ip': true});
 </script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.css" rel="stylesheet">
+<link href="site_libs/leaflet-markercluster-1.0.5/MarkerCluster.Default.css" rel="stylesheet">
+<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.js"></script>
+<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.freezable.js"></script>
+<script src="site_libs/leaflet-markercluster-1.0.5/leaflet.markercluster.layersupport.js"></script>
 
 
 <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -132,15 +147,17 @@ gtag('config', 'G-VGC31NCJ07', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
 <p><img src="assets/img/cs-pui-listing.jpg" class="img-fluid"></p>
-<section id="frequently-asked-questions" class="level1">
+<section id="frequently-asked-questions" class="level1 page-columns page-full">
 <h1>Frequently Asked Questions</h1>
 <hr>
 <section id="who-maintains-this-site" class="level4">
@@ -177,9 +194,29 @@ gtag('config', 'G-VGC31NCJ07', { 'anonymize_ip': true});
 </ul>
 <hr>
 </section>
+<section id="where-are-the-jobs-located" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="where-are-the-jobs-located">❓ Where are the jobs located?</h4>
+<div class="page-columns page-full"><p>The map below visualizes current (blue) and previous (grey) job postings. The map is zoomable. </p><div class="no-row-height column-margin column-container"><span class="margin-aside">Exact locations have been jittered by up to 0.05 degrees latitude and longitude in order to facilitate visualization.</span></div></div>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-bddbdbe31925703d2790" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-bddbdbe31925703d2790">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addCircleMarkers","args":[[41.61799259312031,38.88652153773609,42.34901589280276,42.38029522499351,42.34868071458119,42.05090845661322,42.01608052291991,40.75162075133915,37.55273057407035,35.27607684823813,35.29555803953333,40.72495896830144,42.21363660954723,34.846499451764,34.84452079907253,39.83299725278937,41.77043789041821,34.14211407485782,42.2781373269668,42.82968492105076,40.69625298813837,42.44594124939441,38.43271801005127,40.41904063620566,40.64984763695855,39.32057872375305,42.27221009840944,41.29541930482537,40.31910599773234,37.72097043707595,45.50559086710044,35.12701452162593,43.05840553975381,42.07918352181456,44.4660708492185,40.77908505438144,37.52558300682406,37.82708204923752,48.76369908698744,41.07813828564613,46.0275678760247,42.7421835268487,39.91702763717564],[-80.19278114655323,-77.0840891550589,-72.50476549842968,-72.50054989766902,-72.53996278077936,-73.95717598778245,-73.95418984630194,-74.03456412038429,-84.34433220556832,-120.6360367962931,-120.6650511792468,-74.04533421582671,-83.57456953112209,-82.36912088624277,-82.37071626539884,-77.18607100314757,-92.71980417132748,-117.7021907846023,-71.8308573305294,-86.09391750939265,-73.97808095553553,-76.473403968288,-78.89867000594498,-82.38766212263776,-75.23845212812788,-76.59506960069828,-72.60019815355926,-82.17478140591416,-83.10327899436761,-77.49777112601163,-122.660335203816,-90.03349510899503,-73.7387364793471,-78.46489636129779,-93.15071417097998,-76.84659259073059,-77.41952976048526,-79.48883262317518,-122.4770682296652,-80.32162025298669,-118.3599401279689,-73.18269020365268,-76.73400761674002],5,null,null,{"interactive":true,"className":"","stroke":false,"color":"grey","weight":5,"opacity":0.5,"fill":true,"fillColor":"grey","fillOpacity":0.3},null,null,["<strong>Allegheny College<\/strong><br/>Meadville, PA<br/>Deadline: 2025-11-15<br/><a href='https://sites.allegheny.edu/human-resources/job_post/assistant-professor-of-computer-and-information-science/'>Full posting<\/a>","<strong>American University -- Departments of Computer Science and Mathematics & Statistics<\/strong><br/>Washington, DC<br/>Deadline: 2025-11-01<br/><a href='https://american.wd1.myworkdayjobs.com/AU/job/Main-Campus-Washington-DC/Assistant-Professor--Joint-Appointment-in-Departments-of-Computer-Science-and-Mathematics---Statistics_R3267'>Full posting<\/a>","<strong>Amherst College - Data Structures and Algorithms<\/strong><br/>Amherst, MA. USA<br/>Deadline: 2025-03-01<br/><a href='https://apply.interfolio.com/163002'>Full posting<\/a>","<strong>Amherst College - Systems<\/strong><br/>Amherst, MA. USA<br/>Deadline: 2025-03-01<br/><a href='https://apply.interfolio.com/163003'>Full posting<\/a>","<strong>Amherst College<\/strong><br/>Amherst, MA. USA<br/>Deadline: 2025-10-07<br/><a href='https://www.amherst.edu/academiclife/departments/computer_science/csjob20'>Full posting<\/a>","<strong>Bard College -- Computer Science<\/strong><br/>Annandale-on-Hudson, New York<br/>Deadline: 2025-10-15<br/><a href='https://apply.interfolio.com/173483'>Full posting<\/a>","<strong>Bard College -- Data Analytics<\/strong><br/>Annandale-on-Hudson<br/>Deadline: 2025-10-15<br/><a href='https://apply.interfolio.com/173494'>Full posting<\/a>","<strong>Barnard College<\/strong><br/>New York, NY. USA<br/>Deadline: 2025-10-08<br/><a href='https://cs.barnard.edu/assistant-professor-computer-science-barnard-college'>Full posting<\/a>","<strong>Berea College<\/strong><br/>Berea, KY<br/>Deadline: 2025-10-01<br/><a href='https://www.schooljobs.com/careers/berea/jobs/5041286/assistant-professor-of-computer-science?keywords=computer%20science&pagetype=jobOpportunitiesJobs'>Full posting<\/a>","<strong>Cal Poly<\/strong><br/>San Luis Obispo, CA, USA<br/>Deadline: 2025-12-10<br/><a href='https://jobs.calpoly.edu/en-us/job/552135/assistant-professor-computer-science-and-software-engineering-ay-2627'>Full posting<\/a>","<strong>Cal Poly<\/strong><br/>San Luis Obispo, CA, USA<br/>Deadline: 2025-12-10<br/><a href='https://jobs.calpoly.edu/en-us/job/552264/assistant-professor-data-science-in-computer-science-and-software-engineering-ay-2627'>Full posting<\/a>","<strong>The Cooper Union<\/strong><br/>New York City, NY, USA<br/>Deadline: 2025-12-20<br/><a href='https://cooper.edu/work/employment-opportunities/albert-nerken-school-engineering-computer-science-tenure-track-0'>Full posting<\/a>","<strong>Eastern Michigan University<\/strong><br/>Ypsilanti, Michigan<br/>Deadline: 2025-12-01<br/><a href='https://careers.emich.edu/jobs/assistant-professor-ypsilanti-michigan-united-states-f9e97fe0-12a2-4844-becf-8f5c6441fccc'>Full posting<\/a>","<strong>Furman University -- Data Science<\/strong><br/>Greenville, SC. USA<br/>Deadline: 2025-09-01<br/><a href='https://furman.wd5.myworkdayjobs.com/Furman_Careers/job/Main-Campus/Tenure-Track-Professor-in-Computer-Science_R002898'>Full posting<\/a>","<strong>Furman University -- Any Specialization<\/strong><br/>Greenville, SC. USA<br/>Deadline: 2025-09-01<br/><a href='https://furman.wd5.myworkdayjobs.com/Furman_Careers/job/Main-Campus/Tenure-Track-Professor-in-Computer-Science_R002898'>Full posting<\/a>","<strong>Gettysburg College<\/strong><br/>Gettysburg, PA<br/>Deadline: 2025-12-31<br/><a href='https://gettysburg.peopleadmin.com/postings/6007'>Full posting<\/a>","<strong>Grinnell College<\/strong><br/>Grinnell, IA. USA<br/>Deadline: 2025-10-03<br/><a href='https://apply.interfolio.com/172155'>Full posting<\/a>","<strong>Harvey Mudd College<\/strong><br/>Claremont, California<br/>Deadline: 2025-10-10<br/><a href='https://academicjobsonline.org/ajo/jobs/30450'>Full posting<\/a>","<strong>College of the Holy Cross<\/strong><br/>Worcester, MA. USA<br/>Deadline: 2025-10-07<br/><a href='https://apply.interfolio.com/171639'>Full posting<\/a>","<strong>Hope College<\/strong><br/>Holland, MI. USA<br/>Deadline: 2025-11-01<br/><a href='https://jobs.hope.edu/postings/4726'>Full posting<\/a>","<strong>Hunter College<\/strong><br/>New York City, New York<br/>Deadline: 2025-12-31<br/><a href='https://cuny.jobs/new-york-ny/assistant-professor-cyber-security-computer-science-multiple-positions/CBC590A7B9E045588727B4429996ED05/job/'>Full posting<\/a>","<strong>Ithaca College<\/strong><br/>Ithaca, NY, USA<br/>Deadline: 2025-10-13<br/><a href='https://ehwy.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/3131?keyword=computer+science&mode=location'>Full posting<\/a>","<strong>James Madison University<\/strong><br/>Harrisonburg, VA<br/>Deadline: 2025-11-17<br/><a href='https://jobs.jmu.edu/jobs/tenure-track-assistant-associate-professor-department-of-computer-science-harrisonburg-virginia-united-states'>Full posting<\/a>","<strong>Kenyon College<\/strong><br/>Gambier, OH<br/>Deadline: 2025-11-01<br/><a href='https://careers.pageuppeople.com/695/cw/en-us/job/493252/assistant-professor-interdisciplinary-program-in-computing'>Full posting<\/a>","<strong>Lafayette College<\/strong><br/>Easton, PA<br/>Deadline: 2025-09-29<br/><a href='https://provost.lafayette.edu/2026-27-data-science_cs-dept/'>Full posting<\/a>","<strong>Loyola University Maryland<\/strong><br/>Baltimore, MD. USA<br/>Deadline: 2025-09-07<br/><a href='https://www.loyola.edu/academics/computer-science/hiring.html'>Full posting<\/a>","<strong>Mount Holyoke College -- Data Science<\/strong><br/>South Hadley, MA. USA<br/>Deadline: 2025-09-25<br/><a href='https://mtholyoke.wd5.myworkdayjobs.com/en-US/External/job/Assistant-Professor-of-Data-Science_R-0000002492'>Full posting<\/a>","<strong>Oberlin College<\/strong><br/>Oberlin, OH. USA<br/>Deadline: 2025-10-15<br/><a href='https://jobs.oberlin.edu/postings/16650'>Full posting<\/a>","<strong>Ohio Wesleyan University<\/strong><br/>Delaware, Ohio, USA<br/>Deadline: 2025-10-20<br/><a href='https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a2082ac8-6363-4a1c-92d0-adacd9e4f844&ccId=19000101_000001&jobId=537958'>Full posting<\/a>","<strong>Randolph Macon College<\/strong><br/>Ashland, VA<br/>Deadline: 2025-10-20<br/><a href='https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=0885b537-c9f5-47f8-aa4f-0ad7bbebf412&ccId=9200900703747_2&type=JS&lang=en_US&jobId=552789'>Full posting<\/a>","<strong>Reed College -- Systems<\/strong><br/>Portland, Oregon<br/>Deadline: 2025-10-17<br/><a href='https://apply.interfolio.com/172757'>Full posting<\/a>","<strong>Rhodes College<\/strong><br/>Memphis, TN, USA<br/>Deadline: 2025-10-01<br/><a href='https://rhodes.wd5.myworkdayjobs.com/en-US/Rhodes_Careers/details/Assistant-Professor-of-Computer-Science_JR-731'>Full posting<\/a>","<strong>Skidmore College<\/strong><br/>Saratoga Springs, NY. USA<br/>Deadline: 2025-10-01<br/><a href='https://eodq.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/2797/'>Full posting<\/a>","<strong>St. Bonaventure University<\/strong><br/>St. Bonaventure, NY. USA<br/>Deadline: 2025-07-31<br/><a href='https://www.schooljobs.com/careers/sbuedu/jobs/4965067/assistant-professor-of-computer-science'>Full posting<\/a>","<strong>St. Olaf College<\/strong><br/>Northfield, MN. USA<br/>Deadline: 2025-10-17<br/><a href='https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2052/'>Full posting<\/a>","<strong>Susquehanna University<\/strong><br/>Selinsgrove, PA<br/>Deadline: 2025-11-03<br/><a href='https://www.schooljobs.com/careers/susqu/jobs/5065923/assistant-professor-of-computer-science?'>Full posting<\/a>","<strong>University of Richmond<\/strong><br/>Richmond, VA<br/>Deadline: 2025-10-17<br/><a href='https://richmond.wd5.myworkdayjobs.com/en-US/staff_faculty/details/Assistant-Professor-of-Computer-Science_JR100666-1?jobFamilyGroup=8b62366a3a92100144f20520256d0000'>Full posting<\/a>","<strong>Washington and Lee University<\/strong><br/>Lexington, VA, USA<br/>Deadline: 2025-10-03<br/><a href='https://apply.interfolio.com/172754'>Full posting<\/a>","<strong>Western Washington University<\/strong><br/>Bellingham, WA, United States<br/>Deadline: 2025-12-01<br/><a href='https://hr.wwu.edu/careers-faculty?job=502717'>Full posting<\/a>","<strong>Westminster College<\/strong><br/>New Wilmington, PA<br/>Deadline: 2025-12-01<br/><a href='https://www.westminster.edu/about/community/employment.cfm'>Full posting<\/a>","<strong>Whitman College<\/strong><br/>Walla Walla, Washington, United States<br/>Deadline: 2025-10-17<br/><a href='https://apply.interfolio.com/173527'>Full posting<\/a>","<strong>Williams College<\/strong><br/>Williamstown, MA. USA<br/>Deadline: 2025-10-01<br/><a href='https://csci.williams.edu/tenure-track-faculty-positions-in-computer-science/'>Full posting<\/a>","<strong>York College<\/strong><br/>York, PA<br/>Deadline: 2025-10-15<br/><a href='https://www.governmentjobs.com/careers/ycp/jobs/5004684/assistant-professor-of-computer-science/apply/jobdetails'>Full posting<\/a>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addCircleMarkers","args":[[34.096688,44.4582983],[-117.7194007,-93.161604],10,null,null,{"interactive":true,"className":"","stroke":false,"color":"#11369c","weight":5,"opacity":0.5,"fill":true,"fillColor":"#11369c","fillOpacity":0.8},{"showCoverageOnHover":true,"zoomToBoundsOnClick":true,"spiderfyOnMaxZoom":true,"removeOutsideVisibleBounds":true,"spiderLegPolylineOptions":{"weight":1.5,"color":"#222","opacity":0.5},"freezeAtZoom":false},null,["<strong>Pomona College<\/strong><br/>Claremont, CA, USA<br/>Deadline: 2026-10-04<br/><a href='https://academicjobsonline.org/ajo/jobs/32241'>Full posting<\/a>","<strong>St. Olaf College<\/strong><br/>Northfield, MN, USA<br/>Deadline: 2026-10-01<br/><a href='https://fa-ewur-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_3/job/2735/?utm_medium=jobshare&utm_source=External+Job+Share'>Full posting<\/a>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[34.096688,48.76369908698744],"lng":[-122.660335203816,-71.8308573305294]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<hr>
+</section>
 <section id="when-do-most-schools-set-deadlines" class="level4">
 <h4 class="anchored" data-anchor-id="when-do-most-schools-set-deadlines">❓ When do most schools set deadlines?</h4>
-<p>Below, you can see the distribution of when application deadlines from the 2021-2022 hiring season. You can see that the center of gravity seems to fall in the 2nd half of october.</p>
+<p>Here is the distribution of deadlines for recent job cycles.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="faq_files/figure-html/deadlines-by-date-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/img/deadlinesByDate-21.jpg" class="img-fluid figure-img"></p>
