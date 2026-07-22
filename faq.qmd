@@ -1,48 +1,5 @@
 ![](assets/img/cs-pui-listing.jpg)
 
-# Frequently Asked Questions
-
-------------
-
-#### ❓ Who maintains this site? 
-
-The current lead maintainers of `cs-pui` are [Varsha Koushik](https://www.coloradocollege.edu/basics/contact/directory/people/koushik_varsha.html) (Colorado College), [Iris Howley](https://www.cs.williams.edu/~iris/) (Williams College) and [Phil Chodrow](https://www.philchodrow.prof/) (Middlebury College). The site was started in the 2020-21 hiring season by [Evan Peck](https://evanpeck.github.io/) (University of Colorado Boulder), who had previously tracked job posts via Twitter and a blog. [Anna Ritz](https://www.reed.edu/biology/ritz/) (Reed College) was another early primary maintainer of the site. Past and current contributors also include [John Rieffel](https://cs.union.edu/~rieffelj/) (Union College) and [Jordan Crouser](https://www.smith.edu/academics/faculty/jordan-crouser) (Smith College).
-
-We are supported by a team of volunteers who help with curation, data collection, and other tasks.
-
-------------
-
-#### ❓ How much does it cost for departments to post? How do I post?
-
-**Posting is free**. Please visit [our posting page](post-an-ad.qmd) for more information about listing your advertisement. 
-
-------------
-
-#### ❓ Does anyone look at it or use it? 
-
-During the 2021-2022 CS hiring season, the website attracted ~10,000 visits. While it's hard to quantify the impact of those views, we received emails from people each year hearing that it made an impact on both (1) departmental applicant pools (and ultimately, hiring), and (2) candidate decision-making. 
- 
-We'd like to think that's pretty good impact-per-dollar-spent.
-
-On a personal note, contributor [Phil Chodrow](www.philchodrow.prof) found his current job through this site! 
-
-------------
-
-#### ❓ When are ads typically posted? 
-
-![Bar graph showing distribution of ad postings from last year - there is an early cluster at the beginning of August, and with some exceptions, another larger cluster starting in mid-September through the beginning of October... then sporadic additions until December.](assets/img/adsByDate-21.jpg)
-
-Some nuance to the data: 
-
-- Dates are based on when they appeared on this website and may not reflet the official date the ad was released. 
-- While ads typically appear here pretty quickly, there is occasionally some lag, so it's better to look for general trends with this chart. 
-- Some CS departments post 'ad forthcoming' here weeks before their official ad is live. 
-
-------------
-
-#### ❓ Where are the jobs located?
-
-The map below visualizes current (blue) and previous (grey) job  postings. The map is zoomable. [Exact locations have been jittered by up to 0.05 degrees latitude and longitude in order to facilitate visualization.]{.aside}
 
 ```{r}
 #| echo: false
@@ -52,6 +9,12 @@ The map below visualizes current (blue) and previous (grey) job  postings. The m
 library(ggmap)
 library(tidyverse, warn.conflicts = FALSE)
 library(leaflet)
+
+get_git_time <- function(fname) {
+  system2("git", c("log", "--follow", "--diff-filter=A", "--pretty=%ct", "--date=short", "--", fname), stdout = TRUE) |>
+    as.numeric() |>
+    as.POSIXct(origin = "1970-01-01")
+}
 
 my_geocode <- function(location){
     geocodes <- read_csv("throughput/geocodes.csv")
@@ -87,38 +50,127 @@ extract_qmd_yaml <- function(file_path) {
   }
 }
 
-# collect data frame of metadata
-df <- list.files("jobs", full.names = TRUE) |>
+safe_convert_date <- function(x) {
+  result <- safely(as.numeric, otherwise = NA_real_)(x)$result
+  lubridate::as_datetime(result)
+}
+
+all_files <- list.files("jobs", full.names = TRUE)
+
+# read in yaml metadata from all files and add the time 
+# added to the git repository
+df <- all_files |>
     map(safely(extract_qmd_yaml, otherwise = NULL)) |>
     map("result") |>
-    bind_rows()
+    bind_rows() |> 
+    mutate(fname = all_files) |>
+    mutate(time_added = map(fname, get_git_time)) |>
+    mutate(time_added = safe_convert_date(time_added))
 
-# first pass: geocode the locations from the metadata
-test <- df |>
-  mutate(geocode = map(location, ~my_geocode(.x)))
-
-df <- test |> 
-  mutate(lat = map_dbl(geocode, "lat"),
-         lon = map_dbl(geocode, "lon")) |> 
-         select(-geocode)
-```
-
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-
-# other processing
+# deadline date formatting and logic
 df <- df |>
     mutate(deadline = as.Date(deadline)) |> 
     mutate(year = lubridate::year(deadline)) |> 
     mutate(month = lubridate::month(deadline)) |>
     mutate(cycle_year = ifelse(month >= 7, year, year - 1))
 
+# geocode the locations from the metadata
+df <- df |>
+  mutate(geocode = map(location, ~my_geocode(.x))) |> 
+  mutate(lat = map_dbl(geocode, "lat"),
+         lon = map_dbl(geocode, "lon")) |> 
+         select(-geocode)
+
+```
+
+# Frequently Asked Questions
+
+------------
+
+#### ❓ Who maintains this site? 
+
+The current lead maintainers of `cs-pui` are [Varsha Koushik](https://www.coloradocollege.edu/basics/contact/directory/people/koushik_varsha.html) (Colorado College), [Iris Howley](https://www.cs.williams.edu/~iris/) (Williams College) and [Phil Chodrow](https://www.philchodrow.prof/) (Middlebury College). The site was started in the 2020-21 hiring season by [Evan Peck](https://evanpeck.github.io/) (University of Colorado Boulder), who had previously tracked job posts via Twitter and a blog. [Anna Ritz](https://www.reed.edu/biology/ritz/) (Reed College) was another early primary maintainer of the site. Past and current contributors also include [John Rieffel](https://cs.union.edu/~rieffelj/) (Union College) and [Jordan Crouser](https://www.smith.edu/academics/faculty/jordan-crouser) (Smith College).
+
+We are supported by a team of volunteers who help with curation, data collection, and other tasks.
+
+------------
+
+#### ❓ How much does it cost for departments to post? How do I post?
+
+**Posting is free**. Please visit [our posting page](post-an-ad.qmd) for more information about listing your advertisement. 
+
+------------
+
+#### ❓ Does anyone look at it or use it? 
+
+During the 2021-2022 CS hiring season, the website attracted ~10,000 visits. While it's hard to quantify the impact of those views, we received emails from people each year hearing that it made an impact on both (1) departmental applicant pools (and ultimately, hiring), and (2) candidate decision-making. 
+ 
+We'd like to think that's pretty good impact-per-dollar-spent.
+
+On a personal note, contributor [Phil Chodrow](www.philchodrow.prof) found his current job through this site! 
+
+------------
+
+#### ❓ When are ads typically posted? When are the deadlines?
+
+The following plot shows the timeline of job postings for the previous hiring season. Each segment begins when the corresponding job is posted on this website and ends at the application deadline. 
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.width: 8
+#| fig.height: 4
+current_year <- lubridate::year(Sys.Date())
+to_plot <- df |> 
+    filter(cycle_year == current_year - 1) |> 
+    mutate(date_added = lubridate::as_date(time_added)) |> 
+    select(institution, date_added, deadline) |>
+    filter(deadline > date_added) |>
+    arrange(date_added) |>
+    mutate(institution = factor(institution, levels = unique(institution)))
+
+to_plot |> 
+    ggplot() + 
+    geom_segment(aes(x = date_added, xend = deadline, y = institution, yend = institution)) + 
+    theme_bw() + 
+    theme(
+        axis.text.y = element_blank(), 
+        axis.title.y = element_blank(), 
+        axis.ticks.y = element_blank(),
+        panel.grid.major.y =  element_blank(), 
+        axis.text.x = element_text(size = 16), 
+        axis.title.x = element_text(size = 16)
+        ) + 
+    xlab("Date") + 
+    ggtitle(paste0("Posting timelines for hiring cycle ",  current_year - 1, "-", current_year))
+```
+
+Some nuance to the data: 
+
+- Dates are based on when they appeared on this website and may not reflect the official date the ad was released. 
+- While ads typically appear here pretty quickly, there is occasionally some lag, so it's better to look for general trends with this chart. 
+- Some CS departments post 'ad forthcoming' here weeks before their official ad is live. 
+- This chart is automated and the extraction of posting dates and deadlines may not have succeeded for every single posting. 
+
+------------
+
+#### ❓ Where are the jobs located?
+
+The map below visualizes current (blue) and previous (grey) job  postings. The map is zoomable, and you can click on a listing for more information. 
+
+::: {.column-page}
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| fig.height: 8
+# leaflet viz
+
 current_year <- lubridate::year(Sys.Date())
 df <- df |>
-  mutate(color = ifelse(cycle_year == current_year, "#11369c", "grey"))
+  mutate(color = ifelse(cycle_year == current_year, "#11369c", "darkgrey"))
 
 df <- df |> 
   mutate(popup = paste0("<strong>", institution, "</strong><br/>", location, "<br/>Deadline: ", deadline, "<br/>", "<a href='", url, "'>", "Full posting", "</a>"))
@@ -134,43 +186,17 @@ current <- df |>
 
 # make the viz!
 leaflet(data = prior) |>
-  addTiles() |>
-  addCircleMarkers(~lon, ~lat , popup = ~popup, color = "grey", radius = 5, stroke = FALSE, fillOpacity = 0.3) |>
+  addProviderTiles(providers$CartoDB.Positron) |>
+  addCircleMarkers(~lon, ~lat , popup = ~popup, color = "black", radius = 5, stroke = TRUE, fillOpacity = 0.0, weight = 2) |>
   addCircleMarkers(data = current, ~lon, ~lat , popup = ~popup, color = "#11369c", clusterOptions = markerClusterOptions(), radius = 10, stroke = FALSE, fillOpacity = 0.8)
 ```
 
-------------
+:::
 
-#### ❓ When do most schools set deadlines? 
-
-Here is the distribution of deadlines for recent job cycles. 
-
-```{r}
-#| label: deadlines-by-date
-#| echo: FALSE
-
-to_plot <- df |> 
-    group_by(cycle_year) |> 
-    filter(n() >= 5)
-
-to_plot |> 
-  ggplot(aes(x = deadline)) +
-  geom_histogram(binwidth = 7) +
-  labs(x = "Deadline Date", y = "Number of Postings") + 
-  theme_bw() + 
-  facet_wrap(~cycle_year, scales = "free_x", ncol = 1) + 
-  theme(strip.background = element_blank())
-```
-
-
-![Bar graph showing the distribution of job ads posted by date - while postings are as early as Sept 1 and as late as Feb 1, there is a strong cluster between October 15 and November 1st](assets/img/deadlinesByDate-21.jpg)
-
-Some nuance to the data: 
-
-- Dates are based on the **final** deadlines at [cs-pui.github.io/index-21](https://cs-pui.github.io/index-21). A couple of the later dates are pretty misleading. They were initially set much earlier in the fall, but shifted later at some point (for a variety of reasons)
-- Quite a few departments still consider applications submitted after deadlines
+*Exact locations have been jittered by up to 0.05 degrees latitude and longitude in order to facilitate visualization. These locations were extracted automatically from job postings using the Google Maps API and may be inaccurate.*
 
 ------------
+
 
 #### ❓ Why focus the website on permanent/tenure-track positions - what about _teaching-track faculty_ or _fixed-term positions_? We need those too! 
 
