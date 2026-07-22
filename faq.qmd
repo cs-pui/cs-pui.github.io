@@ -1,6 +1,3 @@
-
-
-
 ![](assets/img/cs-pui-listing.jpg)
 
 # Frequently Asked Questions
@@ -43,9 +40,125 @@ Some nuance to the data:
 
 ------------
 
+#### ❓ Where are the jobs located?
+
+The map below visualizes current (blue) and previous (grey) job  postings. The map is zoomable. [Exact locations have been jittered by up to 0.05 degrees latitude and longitude in order to facilitate visualization.]{.aside}
+
+```{r}
+#| echo: false
+#| warning: false
+# Install the core YAML parser if not installed
+
+library(ggmap)
+library(tidyverse, warn.conflicts = FALSE)
+library(leaflet)
+
+my_geocode <- function(location){
+    geocodes <- read_csv("throughput/geocodes.csv")
+    if (location %in% geocodes$location) {
+        return(geocodes |> filter(location == !!location) |> select(lat, lon) |> slice(1)) 
+    } else {
+        result <- ggmap::geocode(location)
+        result <- result |> mutate(location = location) |> 
+            select(location, lat, lon)
+        
+        write.table(result, "throughput/geocodes.csv", row.names = FALSE, col.names = FALSE, append = TRUE, sep = ",")
+
+        return(c(lat = result$lat, lon = result$lon))
+    }
+}
+
+extract_qmd_yaml <- function(file_path) {
+  # Read lines of the file
+  lines <- readLines(file_path, warn = FALSE)
+  
+  # Find positions of the YAML delimiters (---)
+  delimiters <- which(lines == "---")
+  
+  if (length(delimiters) >= 2) {
+    # Isolate lines between the first two '---'
+    yaml_lines <- lines[(delimiters[1] + 1):(delimiters[2] - 1)]
+    yaml_text <- paste(yaml_lines, collapse = "\n")
+    
+    # Parse the text into an R list
+    return(yaml::yaml.load(yaml_text))
+  } else {
+    stop("Could not find a valid YAML header in the file.")
+  }
+}
+
+# collect data frame of metadata
+df <- list.files("jobs", full.names = TRUE) |>
+    map(safely(extract_qmd_yaml, otherwise = NULL)) |>
+    map("result") |>
+    bind_rows()
+
+# first pass: geocode the locations from the metadata
+df <- df |>
+  mutate(geocode = map(location, ~safely(my_geocode, otherwise = NULL)(.x))) |> 
+  mutate(geocode = map(geocode, "result")) |>
+  unnest(cols = c(geocode)) 
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+
+# other processing
+df <- df |>
+    mutate(deadline = as.Date(deadline)) |> 
+    mutate(year = lubridate::year(deadline)) |> 
+    mutate(month = lubridate::month(deadline)) |>
+    mutate(cycle_year = ifelse(month >= 7, year, year - 1))
+
+current_year <- lubridate::year(Sys.Date())
+df <- df |>
+  mutate(color = ifelse(cycle_year == current_year, "#11369c", "grey"))
+
+df <- df |> 
+  mutate(popup = paste0("<strong>", institution, "</strong><br/>", location, "<br/>Deadline: ", deadline, "<br/>", "<a href='", url, "'>", "Full posting", "</a>"))
+
+# previous cycles for background 
+prior <- df |> 
+  filter(cycle_year < current_year) |> 
+  mutate(lat = lat + runif(n(), -0.05, 0.05), 
+         lon = lon + runif(n(), -0.05, 0.05))
+
+current <- df |> 
+  filter(cycle_year == current_year)
+
+# make the viz!
+leaflet(data = prior) |>
+  addTiles() |>
+  addCircleMarkers(~lon, ~lat , popup = ~popup, color = "grey", radius = 5, stroke = FALSE, fillOpacity = 0.3) |>
+  addCircleMarkers(data = current, ~lon, ~lat , popup = ~popup, color = "#11369c", clusterOptions = markerClusterOptions(), radius = 10, stroke = FALSE, fillOpacity = 0.8)
+```
+
+------------
+
 #### ❓ When do most schools set deadlines? 
 
-Below, you can see the distribution of when application deadlines from the 2021-2022 hiring season. You can see that the center of gravity seems to fall in the 2nd half of october. 
+Here is the distribution of deadlines for recent job cycles. 
+
+```{r}
+#| label: deadlines-by-date
+#| echo: FALSE
+
+to_plot <- df |> 
+    group_by(cycle_year) |> 
+    filter(n() >= 5)
+
+to_plot |> 
+  ggplot(aes(x = deadline)) +
+  geom_histogram(binwidth = 7) +
+  labs(x = "Deadline Date", y = "Number of Postings") + 
+  theme_bw() + 
+  facet_wrap(~cycle_year, scales = "free_x", ncol = 1) + 
+  theme(strip.background = element_blank())
+```
+
 
 ![Bar graph showing the distribution of job ads posted by date - while postings are as early as Sept 1 and as late as Feb 1, there is a strong cluster between October 15 and November 1st](assets/img/deadlinesByDate-21.jpg)
 

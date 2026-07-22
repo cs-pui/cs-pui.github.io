@@ -17,9 +17,36 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Install R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.6.1'
+      
+      - name: Install dependencies
+        run: |
+          Rscript -e 'install.packages(c("remotes", "tidyverse", "leaflet", "ggmap"))'
+      
+      - name: Register Google API key
+        run: |
+          Rscript -e 'ggmap::register_google(key = "${{ secrets.MAPS_API_KEY }}")'
+      
+      - name: Setup
+        run: |
+          Rscript R/setup.R
+
+      
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Commit cached geocodes to repository
+        run: |
+          git config --global user.name "Phil Chodrow"
+          git config --global user.email "pchodrow@middlebury.edu"
+          git add throughput/geocodes.csv
+          git commit -m "Update cached geocodes" || echo "No changes to commit"
+          git push
