@@ -95,8 +95,7 @@ df <- list.files("jobs", full.names = TRUE) |>
 
 # first pass: geocode the locations from the metadata
 df <- df |>
-  mutate(geocode = map(location, ~safely(my_geocode, otherwise = NULL)(.x))) |> 
-  mutate(geocode = map(geocode, "result")) |>
+  mutate(geocode = map(location, ~my_geocode(.x))) |> 
   unnest(cols = c(geocode)) 
 ```
 
