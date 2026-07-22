@@ -1,6 +1,6 @@
 ---
 institution: Pepperdine University
-location:Malibu, CA
+location: Malibu, CA
 deadline: 2025-12-01
 active: true
 type: Tenure Track
