@@ -4,7 +4,7 @@ location: Portland, Oregon
 active: false
 type: Tenure Track
 url: https://apply.interfolio.com/179610
-deadline: 1/13/2026
+deadline: 2026-01-13
 review: rolling
 ---
 

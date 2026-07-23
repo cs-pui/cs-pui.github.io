@@ -4,7 +4,7 @@ location: Tacoma, WA, USA
 active: false
 type: Tenure Track or Visitor
 url: https://employment.plu.edu/postings/8685
-deadline: 1/10/2026
+deadline: 2026-01-10
 review: rolling
 ---
 
