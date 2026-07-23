@@ -124,55 +124,55 @@ The following plot shows the timeline of job postings for the previous hiring se
 
 
 
-current_year <- lubridate::year(Sys.Date())
-to_plot <- df |> 
-    filter(cycle_year == current_year - 1) |> 
-    mutate(date_added = lubridate::as_date(time_added)) |> 
-    select(institution, date_added, deadline) |>
-    filter(deadline > date_added) |> 
-    arrange(date_added, deadline) |>
-    mutate(institution = factor(institution, levels = unique(institution)))
+# current_year <- lubridate::year(Sys.Date())
+# to_plot <- df |> 
+#     filter(cycle_year == current_year - 1) |> 
+#     mutate(date_added = lubridate::as_date(time_added)) |> 
+#     select(institution, date_added, deadline) |>
+#     filter(deadline > date_added) |> 
+#     arrange(date_added, deadline) |>
+#     mutate(institution = factor(institution, levels = unique(institution)))
 
 
-# data frame of days in time period with their corresponding months
-month_df <- data.frame(
-    date = seq.Date(from = min(to_plot$date_added, na.rm = TRUE) - 1, 
-                    to = max(to_plot$deadline, na.rm = TRUE) , 
-                    by = "day")
-) |>
-    mutate(month = lubridate::floor_date(date, "month"),
-    month_name = format(date, "%B")
-    )
+# # data frame of days in time period with their corresponding months
+# month_df <- data.frame(
+#     date = seq.Date(from = min(to_plot$date_added, na.rm = TRUE) - 1, 
+#                     to = max(to_plot$deadline, na.rm = TRUE) , 
+#                     by = "day")
+# ) |>
+#     mutate(month = lubridate::floor_date(date, "month"),
+#     month_name = format(date, "%B")
+#     )
 
 
-points <- month_df |> 
-    group_by(month_name) |> 
-    summarise(m = mean(date))
+# points <- month_df |> 
+#     group_by(month_name) |> 
+#     summarise(m = mean(date))
 
 
-r <- to_plot |> 
-    ggplot() + 
-    geom_segment(aes(x = date_added, xend = deadline, y = institution, yend = institution), linewidth = 1.5, color = "#303030") + 
-    theme_bw() + 
-    scale_x_date(date_breaks = "1 weeks", expand = c(0, 0)) +
-    theme(
-        axis.text.y = element_blank(), 
-        axis.title.y = element_blank(), 
-        axis.ticks.y = element_blank(),
-        panel.grid.major.y =  element_blank(), 
-        panel.grid.minor.x = element_blank(),
-        panel.border = element_blank(), 
-        axis.text.x = element_blank(), 
-        axis.ticks.x = element_blank(), 
-        axis.title.x = element_blank()
-        ) + 
-    ggtitle(paste0("Posting timelines for hiring cycle ",  current_year - 1, "-", current_year)) + 
-    geom_rect(data = month_df, aes(xmin = date, xmax = date + 1, ymin = -Inf, ymax = Inf, fill = factor(month_name)), inherit.aes = FALSE, alpha = 0.1) +
-    scale_fill_discrete(name = "Month") + 
-    geom_label(data = points, aes(x = m, y = -5, label = month_name), inherit.aes = FALSE, vjust = -1, fontface = "bold", border.colour = "white") + 
-    guides(fill = "none") 
+# r <- to_plot |> 
+#     ggplot() + 
+#     geom_segment(aes(x = date_added, xend = deadline, y = institution, yend = institution), linewidth = 1.5, color = "#303030") + 
+#     theme_bw() + 
+#     scale_x_date(date_breaks = "1 weeks", expand = c(0, 0)) +
+#     theme(
+#         axis.text.y = element_blank(), 
+#         axis.title.y = element_blank(), 
+#         axis.ticks.y = element_blank(),
+#         panel.grid.major.y =  element_blank(), 
+#         panel.grid.minor.x = element_blank(),
+#         panel.border = element_blank(), 
+#         axis.text.x = element_blank(), 
+#         axis.ticks.x = element_blank(), 
+#         axis.title.x = element_blank()
+#         ) + 
+#     ggtitle(paste0("Posting timelines for hiring cycle ",  current_year - 1, "-", current_year)) + 
+#     geom_rect(data = month_df, aes(xmin = date, xmax = date + 1, ymin = -Inf, ymax = Inf, fill = factor(month_name)), inherit.aes = FALSE, alpha = 0.1) +
+#     scale_fill_discrete(name = "Month") + 
+#     geom_label(data = points, aes(x = m, y = -5, label = month_name), inherit.aes = FALSE, vjust = -1, fontface = "bold", border.colour = "white") + 
+#     guides(fill = "none") 
 
-ggsave("fig/posting_timelines.png", plot = r, width = 8, height = 5)
+# ggsave("fig/posting_timelines.png", plot = r, width = 8, height = 5)
 ```
 
 <!-- ::: {.column-page} -->
