@@ -81,6 +81,9 @@ df <- df |>
          lon = map_dbl(geocode, "lon")) |> 
          select(-geocode)
 
+df |>
+    select(fname, location, lat, lon, time_added, deadline)
+
 ```
 
 # Frequently Asked Questions
@@ -130,6 +133,11 @@ to_plot <- df |>
     arrange(date_added) |>
     mutate(institution = factor(institution, levels = unique(institution)))
 
+to_plot
+```
+
+
+```{r}
 to_plot |> 
     ggplot() + 
     geom_segment(aes(x = date_added, xend = deadline, y = institution, yend = institution)) + 
