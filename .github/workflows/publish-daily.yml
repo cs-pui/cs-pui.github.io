@@ -3,6 +3,9 @@ on:
     - cron: "0 12 * * *"
 
 name: Daily publish
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: true
 
 jobs:
   build-deploy:
