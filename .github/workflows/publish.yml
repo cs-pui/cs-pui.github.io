@@ -4,6 +4,9 @@ on:
       branches: main
       
 name: Quarto Publish
+concurrency:
+  group: gh-pages-deploy
+  cancel-in-progress: true
 
 jobs:
   build-deploy:
