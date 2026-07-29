@@ -235,7 +235,7 @@ leaflet(data = prior) |>
 ------------
 
 
-#### ❓ Why focus the website on permanent/tenure-track positions - what about _teaching-track faculty_ or _fixed-term positions_? We need those too! 
+#### ❓ Why focus the website on permanent/tenure-track positions - what about _teaching-track faculty_ or _fixed-term positions_? We need those too! {#scope}
 
 
 We agree! Unfortunately, this site is curated on top of normal faculty duties, and without funding or compensation. As a result, we need to limit the scope to keep it manageable. We therefore prioritize and actively monitor tenure-track positions at institutions that are primarily undergraduate-focused (PUIs), while encouraging departments that match our scope to make their own submissions for visiting positions. 
@@ -246,7 +246,7 @@ Until we can find resources for the site (if you have any leads, [let us know](m
 
 ------------
 
-#### ❓ How do I know whether my institution has enough emphasis on research? 
+#### ❓ How do I know whether my institution has enough emphasis on research? {#research}
 
 
 There really isn't a hard set of rules here. However, many schools on our list have: 
