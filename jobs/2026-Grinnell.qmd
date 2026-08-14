@@ -1,0 +1,13 @@
+---
+institution: Grinnell College
+location: Grinnell, Iowa, USA
+deadline: 2026-10-02
+active: true
+type: Tenure Track
+url: https://apply.interfolio.com/191271
+---
+
+The Department of Computer Science invites applications for a tenure-track appointment beginning Fall 2027. Assistant Professor (Ph.D.) preferred; Instructor (ABD) or Associate Professor possible. We are eager to consider candidates whose scholarly agenda expands the department’s existing breadth in Computer Science. Candidates with degrees in closely related fields will also be considered. The teaching load is five courses (or equivalent; some classes with a significant lab component are credited as 1.5 courses) over two semesters; periodically one course will be Tutorial (a topical writing/critical thinking course for first-year students, the only College-wide requirement beyond the completion of a major in an individually-advised curriculum). In letters of application, candidates should discuss their interest in developing as a teacher and scholar in a highly selective undergraduate liberal arts college that emphasizes close student-faculty interaction. They should also discuss their potential to contribute to a college community that maintains a diversity of people and perspectives as one of its core values. Additional information about our curriculum and faculty can be found at [https://www.cs.grinnell.edu](https://www.cs.grinnell.edu). 
+<br> <br>
+🗓️ Review of applications begins after ***October 2, 2026*** and will continue until the position is filled.
+
