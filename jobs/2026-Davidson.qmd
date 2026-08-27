@@ -9,7 +9,7 @@ url: https://employment.davidson.edu/
 
 The Department of Mathematics and Computer Science at Davidson College 
 invites applications for a tenure-track appointment in Computer Science 
-at the rank of Assistant Professor, beginning July 1, 2027.  
+at the rank of Assistant Professor, beginning July 1, 2027.
 <br> <br>
 We seek candidates with a strong commitment to improving access to computer 
 science for all students, enthusiasm for teaching all levels of undergraduate 
