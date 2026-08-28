@@ -108,7 +108,9 @@ St. agur blue cheese edam **mascarpone**. Port-salut stinking bishop when the
 cheese comes out everybody's happy cut the cheese cheddar paneer cheddar feta. 
 Queso blue castello queso gouda smelly cheese chalk and cheese cottage cheese 
 cheese on toast. Cheese slices pepper jack cheese on toast cheese and biscuits.
-**Mascarpone** blue castello *cheeseburger*. St. agur blue cheese st. agur blue 
+**Mascarpone** blue castello *cheeseburger*. 
+<br><br>
+St. agur blue cheese st. agur blue 
 cheese cheeseburger bavarian bergkase cheesy feet squirty cheese who moved my 
 cheese jarlsberg. Cheese and biscuits danish fontina pepper jack blue castello 
 camembert de normandie emmental airedale airedale. Who moved my cheese st. agur 
@@ -123,9 +125,9 @@ until the position is filled.
 
 Please attend to three small pieces of formatting, which are all illustrated in the code block above:
 
-1. Please separate the line describing the deadline and deadline approach from the main description using **two** consecutive `<br>` tags. 
-2. Please ensure that the 🗓️ icon appears at the beginning of this line. 
-3. Please ensure that the deadline itself is surrounded by triple `***` on both sides, like this: `***October 1st, 2024***`. This will render as a highlight: ***October 1st, 2024***. 
+1. Separate paragraphs with two consecutive `<br>` tags. This is especially important for the final line describing the deadline and deadline approach. 
+2. Ensure that the 🗓️ icon appears at the beginning of the final line describing the deadline and deadline approach. 
+3. Ensure that the deadline itself is surrounded by triple `***` on both sides, like this: `***October 1st, 2024***`. This will render as a highlight: ***October 1st, 2024***. 
     - Please also check that the date you describe in this line matches the deadline in the metadata. 
 
 ## Closing Your Ad {#close}
