@@ -1,7 +1,7 @@
 ---
 institution: Hillsdale College
 location: Hillsdale, MI, USA
-Deadline: 2026-10-12
+deadline: 2026-10-12
 active: true
 type: Tenure Track
 url: https://apply.interfolio.com/191353
