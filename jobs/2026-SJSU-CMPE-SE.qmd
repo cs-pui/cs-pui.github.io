@@ -1,0 +1,20 @@
+---
+institution: San José State University
+location: San José, CA, USA
+deadline: 2026-09-27
+active: true
+type: Tenure Track
+url: https://jobs.sjsu.edu/sj/en-us/job/561331?lApplicationSubSourceID=
+---
+
+The Computer Engineering Department at San José State University is pleased to announce a search for a tenure-track faculty 
+position at the rank of **Assistant Professor** beginning in **January or August 2027**. Areas of particular interest include 
+embedded systems, computer architecture, SOC and ASIC design, artificial intelligence and machine learning, computer vision, 
+embodied AI, cybersecurity, cyber-physical systems, cloud computing, software design, and engineering/computing education, 
+but other related areas will also be considered.
+<br> <br>
+Compensation: Commensurate with qualifications, experience, and rank as established by the CSU Salary Schedule. Anticipated 
+hiring academic year annual salary range: **$106,000-$126,000**. Faculty employee benefits are very competitive for the higher 
+education sector. See the CSU Employee Benefits Summary for details about the CSU’s excellent benefits package.
+<br> <br>
+🗓️ Review of applications begins **September 27, 2026** and will continue until the position is filled or closed. 
