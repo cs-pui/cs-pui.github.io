@@ -1,0 +1,21 @@
+---
+institution: Bates College 
+location: Lewiston, ME, USA
+deadline: 2024-10-01
+active: true
+type: Tenure Track
+url: https://apply.interfolio.com/193312
+---
+The Program in Digital and Computational Studies (DCS) at Bates College invites applications for two full-time, open-rank, tenure-line positions in Computer Science, beginning July, 2027. We seek outstanding scholars with a strong commitment to excellent undergraduate teaching and mentorship in a liberal arts environment, and who will help to deepen the discipline of computer science in an interdisciplinary computing program. 
+
+<br><br>
+DCS is an interdisciplinary program that seeks to build bridges between core elements of computer science, data science, and digital studies, connecting to the arts, humanities, social sciences, natural sciences, and other existing interdisciplinary programs on campus. DCS teaches students to design, build, and analyze digital & computational tools and algorithms, while also developing the ability to critique those same tools and algorithms. 
+
+
+<br><br>
+While areas of expertise are open, the successful candidates will have a demonstrated commitment to interdisciplinary computing in the liberal arts, in research areas which may include, but are not limited to: human computer interaction (HCI), artificial intelligence/machine learning (AI/ML), natural language processing (NLP), and disciplinary-based computer science education. Successful candidates will demonstrate interest in collaboratively building an interdisciplinary and inclusive computing program for the liberal arts.
+
+<br> <br>
+🗓️ Review of applications begins ***October 15th, 2026*** and will continue 
+until the position is filled. 
+
