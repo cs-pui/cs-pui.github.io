@@ -1,7 +1,7 @@
 ---
 institution: Bates College 
 location: Lewiston, ME, USA
-deadline: 2026-15-01
+deadline: 2026-10-15
 active: true
 type: Tenure Track
 url: https://apply.interfolio.com/193312
