@@ -7,13 +7,11 @@ type: Tenure Track
 url: https://www.westminster.edu/about/community/employment.cfm
 ---
 
-The Westminster College Department of Mathematics and Computer Science invites applications for an Assistant Professor of Computer Science, to begin August 2027. We seek a dynamic and innovative teacher-scholar who is committed to excellence in undergraduate education and student-centered learning. Responsibilities:
-- Teach three courses per semester (in person) in a broad range of courses in the computer science
-program, the College’s core curriculum, and the first-year program.
-- Maintain and expand our current offerings in Artificial Intelligence and Machine Learning.
-- Maintain an active program of scholarship that engages undergraduate students.
-- Advise and mentor undergraduate students pursuing computer science majors, minors, and
-interdisciplinary programs.
-- Participate in service to the department, college, and broader academic community.
+The Westminster College Department of Mathematics and Computer Science invites applications for an Assistant Professor of Computer Science, to begin August 2027. We seek a dynamic and innovative teacher-scholar who is committed to excellence in undergraduate education and student-centered learning. Responsibilities include:
+<br><br> 1. Teach three courses per semester (in person) in a broad range of courses in the computer science program, the College’s core curriculum, and the first-year program.
+<br><br> 2. Maintain and expand our current offerings in Artificial Intelligence and Machine Learning.
+<br><br> 3. Maintain an active program of scholarship that engages undergraduate students.
+<br><br> 4. Advise and mentor undergraduate students pursuing computer science majors, minors, and interdisciplinary programs.
+<br><br> 5. Participate in service to the department, college, and broader academic community.
 <br><br>
 🗓️ Complete applications received by ***October 16, 2026*** will receive full consideration, but applications will be accepted after this date until the position is filled.
