@@ -1,0 +1,13 @@
+---
+institution: Seton Hall University
+location: South Orange, New Jersey, USA
+deadline: 2026-11-01
+active: true
+type: Tenure Track
+url: https://jobs.shu.edu/cw/en-us/job/497488/assistant-professor-of-computer-science
+---
+The Department of Mathematics and Computer Science at Seton Hall University invites applications for a full-time, tenure-track Assistant Professor position in Computer Science. The appointment will begin in August 2027. Preference will be given to candidates whose research expertise aligns with one or more of the following areas: cloud and edge computing, cyber-physical systems, and AI systems. Responsibilities include teaching computer science courses at all undergraduate levels and, depending on the candidate's expertise, undergraduate and graduate courses in Cybersecurity and/or Data Science, including service courses. Additional responsibilities include supervising student research and maintaining a computer engineering laboratory. Applicants should understand and be willing to support Seton Hall University's Catholic mission.
+<br><br>
+A Ph.D. in Computer Science or a closely related field is required and must be completed by the start date of employment. The successful candidate will demonstrate a strong commitment to excellence in teaching, scholarly research, and the mentorship of students through undergraduate and graduate research experiences. Teaching experience and a record of scholarly publications are preferred.
+<br><br>
+🗓️ Applications are accepted on a rolling basis with a soft deadline on ***November 1, 2026**.
