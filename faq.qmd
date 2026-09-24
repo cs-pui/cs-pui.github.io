@@ -189,6 +189,7 @@ Some nuance to the data:
 - While ads typically appear here pretty quickly, there is occasionally some lag, so it's better to look for general trends with this chart. 
 - Some CS departments post 'ad forthcoming' here weeks before their official ad is live. 
 - This chart is automated and the extraction of posting dates and deadlines may not have succeeded for every single posting. 
+- Each line corresponds to a single job *posting*; a small number of postings are for more than one job.
 
 ------------
 
@@ -223,14 +224,15 @@ current <- df |>
 
 # make the viz!
 leaflet(data = prior) |>
-  addProviderTiles(providers$CartoDB.Positron) |>
+  # addProviderTiles(providers$CartoDB.Positron) |>
+  addTiles() |>
   addCircleMarkers(~lon, ~lat , popup = ~popup, color = "black", radius = 5, stroke = TRUE, fillOpacity = 0.0, weight = 2) |>
   addCircleMarkers(data = current, ~lon, ~lat , popup = ~popup, color = "#11369c", clusterOptions = markerClusterOptions(), radius = 10, stroke = FALSE, fillOpacity = 0.8)
 ```
 
 :::
 
-*Exact locations have been jittered by up to 0.05 degrees latitude and longitude in order to facilitate visualization. These locations were extracted automatically from job postings using the Google Maps API and may be inaccurate.*
+*Exact locations have been jittered by up to 0.05 degrees latitude and longitude in order to facilitate visualization. These locations were extracted automatically from job postings using the Google Maps API and may be inaccurate. Each dot refers to a single job posting; a small number of postings are for more than one job.*
 
 ------------
 
