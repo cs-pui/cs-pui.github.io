@@ -55,7 +55,7 @@ safe_convert_date <- function(x) {
   lubridate::as_datetime(result)
 }
 
-all_files <- list.files("jobs", full.names = TRUE)
+all_files <- list.files("jobs", full.names = TRUE, pattern = "\\.qmd$")
 
 # read in yaml metadata from all files and add the time 
 # added to the git repository
