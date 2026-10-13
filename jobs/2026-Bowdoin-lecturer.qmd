@@ -1,0 +1,13 @@
+---
+institution: Bowdoin College
+location: Brunswick, ME, USA
+deadline: 2027-01-19
+active: true
+type: Lecturer Track
+url: https://careers.bowdoin.edu/postings/18298
+---
+Bowdoin College’s Department of Computer Science invites applications for a full-time, benefits-eligible lecturer-track position as Lecturer in Computer Science beginning July 1, 2027. The initial appointment will be for four years, with the potential for recurring multi-year reappointments and eventual promotion to Senior Lecturer, contingent upon successful review and reappointment. The teaching load is five courses per year and is expected to include a regular suite of core introductory-level courses (e.g. Intro to Computer Science, Data Structures) as well as intermediate and advanced courses within the candidate’s area of expertise as opportunity and demand allow. As the primary focus for lecturer-track faculty is on teaching and pedagogy, the successful candidate will have a demonstrated history of pedagogical innovation and a commitment to keep abreast of advances in computer science pedagogy. 
+<br><br>
+An advanced degree (master’s or doctorate) in Computer Science or a related field is expected by the date of appointment. The anticipated hiring range for this appointment without prior lecturer-track experience is $94,000 – $100,000 annually; the salary offered will be commensurate with the successful candidate’s experience and with internal peer equity.
+<br><br>
+🗓️ Review of applications will begin ***January 19, 2027***, and continue until the position is filled. 
