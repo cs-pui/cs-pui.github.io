@@ -1,0 +1,18 @@
+---
+institution: Lafayette College
+location: Easton, PA
+deadline: 2026-10-01
+active: true
+type: Tenure Track
+url: https://provost.lafayette.edu/2027-28-ece-asst-prof/
+---
+
+The Department of Electrical and Computer Engineering (ECE) at Lafayette College invites applications for a tenure-track Assistant or Associate Professor position beginning in the 2027–28 academic year (normally July 1, 2027). We seek a colleague who is committed to being a dynamic educator-scholar, an engaging and inclusive teacher, and a mentor of undergraduate students. The Department seeks candidates with expertise to teach core ECE courses in electronics, instrumentation, computer architecture, cyber-physical systems, or embedded systems. Particular consideration will be given to candidates who can also contribute to the Robotics or Bioengineering tracks within Lafayette’s interdisciplinary Integrative Engineering major.
+<br><br>
+Lafayette College is a highly selective undergraduate institution that combines the strengths of engineering with liberal arts education. The ECE Department graduates approximately 16 majors per year and offers small class sizes, extensive laboratory experiences, and close faculty-student interaction. 
+The Department values the ability to teach a broad range of required courses, including those with hands-on laboratory and design projects, and to develop new elective courses in the candidate’s areas of interest that engage students across engineering and the liberal arts. 
+<br><br>
+For more information and to apply, please visit the full job posting below. 
+<br> <br>
+🗓️ Review of applications begins ***October 1st, 2026*** and will continue 
+until the position is filled. 
