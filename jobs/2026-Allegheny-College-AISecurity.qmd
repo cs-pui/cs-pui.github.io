@@ -4,7 +4,7 @@ location: Meadville, PA
 deadline: 2026-10-20
 active: true
 type: Tenure Track
-url: https://sites.allegheny.edu/human-resources/job_post/assistant-professor-of-computer-and-information-science/
+url: https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/333
 review: rolling
 ---
 
