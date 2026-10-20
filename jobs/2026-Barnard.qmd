@@ -1,0 +1,12 @@
+---
+institution: Barnard College
+location: New York City, New York, USA
+deadline: 2026-11-02
+active: true
+type: Tenure Track
+url: https://barnard.wd1.myworkdayjobs.com/en-US/Faculty/details/Assistant-Professor-of-Cognitive-Science-and-Computer-Science_JR2026316
+---
+
+Barnard seeks to hire a tenure-track Assistant Professor in Cognitive Science and Computer Science to begin July 1, 2027. The area of focus is at the intersection of Human Cognition and Artificial Intelligence. The faculty member's primary affiliation and tenure line will be in the Department of Computer Science, with responsibilities split between the Computer Science Department and the Cognitive Science Program at Barnard.  We are seeking candidates who work at the intersection of human cognition and artificial intelligence. The ideal candidate will pursue research and teaching that advances both our understanding of how the mind works and the development of new cognitively inspired and ethically designed AI systems. A successful hire will further the aims and vision of the Cognitive Science Program and Computer Science Department at Barnard.
+<br><br>
+🗓️ Review of applications will begin on approximately ***November 2, 2026*** and may continue until the position is filled.
