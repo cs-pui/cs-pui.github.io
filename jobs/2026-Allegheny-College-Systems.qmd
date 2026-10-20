@@ -1,0 +1,14 @@
+---
+institution: Allegheny College 
+location: Meadville, PA
+deadline: 2026-10-20
+active: true
+type: Tenure Track
+url: https://alleghenycollege-ibwwjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/332
+review: rolling
+---
+
+Allegheny College invites applications for a full-time, tenure-track position in Computer and Information Science, beginning in July 2027. Ideal candidates will have a Ph.D. or other terminal degree in computing or a related field, experience and success teaching computational courses at the undergraduate college level, and an active research agenda in computer and information science. For this role, preference will be given to candidates whose research is in Systems or a related field.
+In the Department of Computer and Information Science, Allegheny faculty have a teaching load of four laboratory courses per academic year with a reduction in the first year. Start-up funding, access to laboratory space, and strong institutional support for undergraduate research will be provided.
+<br> <br>
+🗓️ Review of applications will begin on ***October 20, 2026***, and continue until the position is filled.
