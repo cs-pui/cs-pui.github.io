@@ -1,0 +1,13 @@
+---
+institution: Hampden-Sydney College
+location: Hampden Sydney, Virginia, USA
+deadline: 2026-10-20
+active: true
+type: Tenure Track
+url: https://www.hsc.edu/faculty-and-staff/dean-of-faculty/faculty-positions-available
+review: rolling
+---
+
+The Department of Mathematics and Computer Science at Hampden-Sydney College invites applications for a tenure-track Computer Science faculty position to begin July 1, 2027. We seek enthusiastic candidates with a commitment to undergraduate education. The teaching load for this position is three courses per semester which works out to 19 credit hours per year on average.  Applicants should have a Ph.D. in computer science or closely related field or anticipate finishing their Ph.D. by the time of appointment.  We encourage candidates with a wide range of specialties to apply.  We would particularly welcome applications from candidates with an interest in helping shape the future of our computer science curriculum as we replace multiple recently retired faculty members.
+<br><br>
+🗓️ We will begin our review of applications ***November 1, 2026*** and continue until the position is filled.
