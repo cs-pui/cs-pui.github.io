@@ -1,7 +1,7 @@
 ---
 institution: Hampden-Sydney College
 location: Hampden Sydney, Virginia, USA
-deadline: 2026-10-20
+deadline: 2026-11-01
 active: true
 type: Tenure Track
 url: https://www.hsc.edu/faculty-and-staff/dean-of-faculty/faculty-positions-available
