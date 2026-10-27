@@ -1,0 +1,25 @@
+---
+institution: Pacific Lutheran University
+location: Tacoma, WA, USA
+active: true
+deadline: 2026-10-27
+review: rolling
+type: Tenure Track or Visitor
+url: https://employment.plu.edu/postings/8955
+---
+
+The Department of Computer Science at Pacific Lutheran University seeks a Director who will lead and teach 
+in our new M.S. degree in Cybersecurity, with the position beginning in Spring or Summer 2027. This position 
+may be tenure-track (hiring at the level of Assistant Professor, Associate Professor, or Professor, based 
+upon qualifications) or offered as a renewable fixed-term contract (visiting or resident). We are seeking a 
+passionate, driven, motivated leader to take a pivotal role in shaping this program, including designing courses 
+and aiding in recruiting students to launch the program in Fall 2027. This is an exciting opportunity to lead 
+the design, implementation and continuous improvement of the program, ensuring alignment with industry standards 
+and emerging trends. The selected applicant will join and lead an exciting new graduate degree, building upon PLU’s 
+existing Computer Science baccalaureate program. Applicants should be able to assume the responsibilities of 
+teaching graduate-level courses in the program, further refining the curriculum, hiring faculty, marketing 
+the program, and recruiting students.
+
+...
+<br><br>
+🗓️ Review of applications will begin immediately and will continue until the position is filled.
