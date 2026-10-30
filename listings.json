@@ -1,7 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/archive.html",
     "items": [
+      "/jobs/2026-Susquehanna-University.html",
       "/jobs/2025-Allegheny-College.html",
       "/jobs/2025-Bard-College-CS.html",
       "/jobs/2025-Bard-College-DA.html",
@@ -75,8 +76,9 @@
     ]
   },
   {
-    "listing": "/archive.html",
+    "listing": "/index.html",
     "items": [
+      "/jobs/2026-Susquehanna-University.html",
       "/jobs/2025-Allegheny-College.html",
       "/jobs/2025-Bard-College-CS.html",
       "/jobs/2025-Bard-College-DA.html",
