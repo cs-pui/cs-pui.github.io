@@ -1,0 +1,13 @@
+---
+institution: Lipscomb University
+location: Nashville, TN, USA
+active: true
+type: Tenure Track
+url: https://recruiting2.ultipro.com/LIP1001LCMB/JobBoard/6e7649f2-aa46-44d5-969d-70429a5423e6/OpportunityDetail?opportunityId=1cff2a73-ca2d-4355-b780-6fea11fa02c1
+deadline: 2026-11-01
+review: rolling
+---
+
+The Department of Computer Science at Lipscomb University invites applications for a tenure-track, open-rank faculty position beginning in Fall 2027. We seek a dedicated educator, ideally with expertise in Artificial Intelligence and Machine Learning, who is passionate about teaching, mentoring students, and contributing to our vibrant academic community. This is primarily a teaching-focused position with opportunities for scholarly engagement.
+<br><br>
+🗓️ Review of applications will begin ***October 1, 2026*** and continue until the position is filled.
