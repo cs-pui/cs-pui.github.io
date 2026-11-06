@@ -3,7 +3,7 @@ institution: Kenyon College
 location: Gambier, OH, USA
 deadline: 2026-11-22
 active: true
-type: Tenure Track
+type: Tenured (Director)
 url: https://www.dsgco.com/search/23528-kenyon-computing-director/
 ---
 
