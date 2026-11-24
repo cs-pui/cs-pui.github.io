@@ -1,12 +1,13 @@
 ---
 institution: Kenyon College
 location: Gambier, OH, USA
-deadline: 2026-11-22
+deadline: 2027-01-02
 active: true
 type: Tenured (Director)
 url: https://www.dsgco.com/search/23528-kenyon-computing-director/
+review: rolling
 ---
 
 Kenyon College seeks a visionary academic leader to serve as the Director of the Interdisciplinary Program in Computing. This is an exceptional opportunity to shape and grow an integrative interdisciplinary program at one of the nation’s leading liberal arts colleges....Academic qualifications must merit appointment as a tenured faculty member (likely a full professor) in the Interdisciplinary Program in Computing...
 <br> <br>
-🗓️ Review of applications begins after ***November 22, 2026*** and will continue until the position is filled.
+🗓️ Review of applications begins after ***January 2, 2027*** and will continue until the position is filled.
